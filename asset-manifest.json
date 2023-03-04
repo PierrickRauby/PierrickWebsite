@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/PierrickWebsite/static/css/main.073c9b0a.css",
+    "main.js": "/PierrickWebsite/static/js/main.d917ba38.js",
+    "static/js/787.590d29b2.chunk.js": "/PierrickWebsite/static/js/787.590d29b2.chunk.js",
+    "static/media/logo.svg": "/PierrickWebsite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/PierrickWebsite/index.html",
+    "main.073c9b0a.css.map": "/PierrickWebsite/static/css/main.073c9b0a.css.map",
+    "main.d917ba38.js.map": "/PierrickWebsite/static/js/main.d917ba38.js.map",
+    "787.590d29b2.chunk.js.map": "/PierrickWebsite/static/js/787.590d29b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.d917ba38.js"
+  ]
+}
