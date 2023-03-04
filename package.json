@@ -1,7 +1,7 @@
 {
   "name": "pierrick-react-website",
   "version": "0.1.0",
-  "homepage":"http://PierrickRauby.github.io/PierrickWebsite",
+  "homepage":"http://pierrickrauby.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
