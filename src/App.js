@@ -10,7 +10,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>
-  <button type="button" class="btn btn-primary">Just a test</button>
+  <button type="button" class="btn btn-primary">Just another test</button>
         </p>
         <a
           className="App-link"
