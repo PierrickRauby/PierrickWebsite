@@ -1,26 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
+import './PierrickNavbar.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-  <button type="button" class="btn btn-primary">Just another test</button>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <head>
+<title>Hello</title>
+      </head>
+< PierrickNavbar/>
+      <body>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <button class="nav-link active" aria-current="page" href="#">Active</button>
+      </li>
+      <li class="nav-item">
+            <button class="nav-link " aria-current="page" href="#">Active</button>
+      </li>
+      <li class="nav-item">
+            <button class="nav-link " aria-current="page" href="#">Active</button>
+      </li>
+      <li class="nav-item">
+            <button class="nav-link " aria-current="page" href="#">Active</button>
+      </li>
+    </ul>
+      </body>
     </div>
   );
 }
