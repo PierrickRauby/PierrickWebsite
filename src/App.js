@@ -1,6 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
-import './PierrickNavbar.js';
+import PierrickNavbar from './components/PierrickNavbar.js';
+import './custom.scss'
+// import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
@@ -8,22 +9,8 @@ function App() {
       <head>
 <title>Hello</title>
       </head>
-< PierrickNavbar/>
+<PierrickNavbar />
       <body>
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <button class="nav-link active" aria-current="page" href="#">Active</button>
-      </li>
-      <li class="nav-item">
-            <button class="nav-link " aria-current="page" href="#">Active</button>
-      </li>
-      <li class="nav-item">
-            <button class="nav-link " aria-current="page" href="#">Active</button>
-      </li>
-      <li class="nav-item">
-            <button class="nav-link " aria-current="page" href="#">Active</button>
-      </li>
-    </ul>
       </body>
     </div>
   );
