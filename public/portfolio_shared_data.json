@@ -1,16 +1,16 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Pierrick Rauby",
+      "titles": [ "Senior Application Engineer", "Ph.D. Mechanical Engineering","MS Computer Science Engineer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/PierrickRauby",
           "class": "fab fa-github"
         },
         {
           "name": "instagram",
-          "url": "https://www.instagram.com",
+          "url": "https://www.linkedin.com/in/pierrickrauby/",
           "class": "fab fa-instagram"
         }
       ],
