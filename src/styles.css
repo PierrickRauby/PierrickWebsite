@@ -11,7 +11,7 @@ body {
   }
   
   header {
-    background-color: #333;
+    background-color: #8e8d8a;
     color: #fff;
     padding: 20px;
   }
@@ -37,4 +37,55 @@ body {
   nav ul li a:hover {
     color: #ccc;
   }
-  
+
+
+.vertical-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.vertical-item {
+  padding: 20px;
+  border: 1px solid black;
+}
+/* Intro */
+
+#IntroBackground {
+  background-color: #EAE7DC;
+  height: 80vh;
+  margin-bottom: 20px; 
+}
+#IntroBackground .intro-content{
+  position: absolute;
+  top:40%;
+  left: 40%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red; */
+}
+
+/* Timeline */
+
+#VerticalTimeline{
+  background-color: #8e8d8a;
+}
+
+.vertical-timeline-element-date{
+  /* this is the vertical line */
+  /* color: #8e8d8a!important; */
+  color:var(--bs-gray-900)!important;
+}
+.vertical-timeline::before {
+  /* this is the vertical line */
+  content: '';
+  position: absolute;
+  background-color: #8e8d8a!important;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: var(--line-color);
+}
+
