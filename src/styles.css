@@ -6,15 +6,22 @@ body {
     padding: 0;
   }
   
-  .App {
-    text-align: center;
-  }
-  
-  header {
-    background-color: #8e8d8a;
-    color: #fff;
-    padding: 20px;
-  }
+
+.intro-content{
+text-align: center;
+}
+
+header {
+  /* background-color: #8e8d8a; */
+  /* background-color: navbarBg; */
+  /* color: #fff; */
+  padding: 20px;
+  /* position: 'sticky'; */
+  /* top: 0; */
+  /* backgroundColor: navbarBg; */
+  /* transition: 'background-color 0.3s ease-in-out'; */
+  /* z-index:999 */
+}
   
   nav ul {
     list-style-type: none;
@@ -55,6 +62,7 @@ body {
   background-color: #EAE7DC;
   height: 80vh;
   margin-bottom: 20px; 
+  text-align: center;
 }
 #IntroBackground .intro-content{
   position: absolute;
@@ -67,6 +75,9 @@ body {
 }
 
 /* Timeline */
+#HomeAboutSection{
+  text-align: center;
+}
 
 #VerticalTimeline{
   background-color: #8e8d8a;
@@ -84,8 +95,42 @@ body {
   background-color: #8e8d8a!important;
   top: 0;
   left: 18px;
-  height: 100%;
+  height: 98%;
   width: 4px;
   background: var(--line-color);
 }
 
+/* Project Section */
+.ProjectSection {
+  background-color: #EAE7DC;
+  height: 80vh;
+  margin-bottom: 20px; 
+  text-align: center;
+}
+.ProjectSection .intro-content{
+  /* position: absolute; */
+  top:40%;
+  left: 40%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red; */
+}
+
+
+/* Contact Section*/
+.ContactSection {
+  background-color: #EAE7DC;
+  height: 80vh;
+  margin-bottom: 20px; 
+  text-align: center;
+}
+.ContactSection .intro-content{
+  /* position: absolute; */
+  top:40%;
+  left: 40%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red; */
+}
