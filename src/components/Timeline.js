@@ -8,7 +8,7 @@ import PrecisionManufacturingIcon from '@mui/icons-material/PrecisionManufacturi
 function Timeline() {
   return (
 
-<div>
+<div className='TimelineSection'>
 <h1 id="HomeAboutSection">About me</h1>
 <VerticalTimeline id='VerticalTimeline'>
   <VerticalTimelineElement

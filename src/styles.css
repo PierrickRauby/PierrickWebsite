@@ -9,6 +9,8 @@ body {
 
 .intro-content{
 text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 header {
@@ -64,14 +66,11 @@ header {
   margin-bottom: 20px; 
   text-align: center;
 }
-#IntroBackground .intro-content{
-  position: absolute;
-  top:40%;
-  left: 40%;
-  /* display: flex;
-  align-items: center;
+#IntroBackground .intro-content {
+  display: flex;
   justify-content: center;
-  background-color: red; */
+  align-items: center;
+  height: 100vh;
 }
 
 /* Timeline */
@@ -103,11 +102,12 @@ header {
 /* Project Section */
 .ProjectSection {
   background-color: #EAE7DC;
-  height: 80vh;
+  height: 65vh;
   margin-bottom: 20px; 
+  padding-top: 20px; 
   text-align: center;
 }
-.ProjectSection .intro-content{
+.ProjectSection .Project-content{
   /* position: absolute; */
   top:40%;
   left: 40%;
@@ -117,6 +117,38 @@ header {
   background-color: red; */
 }
 
+.ProjectSection h1{
+margin-bottom: 20px;
+}
+
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.card{
+  margin-right: 30px;
+  flex-grow: 1;
+  margin: 0 5px; /* Adjust the value to control the horizontal spacing */
+  flex-basis: calc(33.33% - 10px); /* Adjust the value to control the card width */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .card {
+    flex-basis: 100%; /* Set the card width to 100% on smaller screens */
+  }
+}
 
 /* Contact Section*/
 .ContactSection {
