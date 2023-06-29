@@ -8,7 +8,7 @@ import React from 'react';
 import Timeline from './Timeline';
 import Intro from './Intro';
 import Projects from './Projects'
-import Contact from './Contact'
+import Skills from './Skills'
 const Home = () => {
 
   return (
@@ -16,7 +16,7 @@ const Home = () => {
       <Intro className='vertical-item' />
       <Timeline/>
       <Projects/>
-      <Contact/>
+      <Skills/>
     </div>
   )
 

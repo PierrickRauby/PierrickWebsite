@@ -44,9 +44,9 @@ const StickyNavbar = () => {
           <li>
             <a href="/#HomeProjectSection">Projects</a>
           </li>
-          <li>
+          {/* <li>
             <a href="/#HomeContactSection">Contact</a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </header>

@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 // import About from './components/About';
 import Running from './components/Running';
-// import Contact from './components/Contact';
 import './styles.css'; // Import the styles.css file
 
 function App() {
