@@ -1,29 +1,27 @@
 import React from "react"
-import Typed from "react-typed"
 function Contact() {
   return (
       <div className="ContactSection">
-        <div className="intro-content display-table">
+        <div className="Project-content display-table">
           <div className="table-cell">
             <div className="container">
-              <h1 className="intro-title mb-4">Hello, I am Pierrick</h1>
-              <p className="intro-subtitle">
-                <span className="text-slider-items"></span>
-                <strong className="text-slider">
-                  <Typed
-                  className="intro-text-slider"
-                    strings={[
-                     "Senior Application Engineer",
-                      "Embedded Software Engineer",
-                      "Runner",
-                    ]}
-                    typeSpeed={80}
-                    backDelay={1100}
-                    backSpeed={30}
-                    loop
-                  />
-                </strong>
+              <div className="contact-title mb-4">
+              <h1> Get in Touch</h1>
+              <div className="Underline"></div>
+              </div>
+              <div className="row">
+                    <div className="col-md-6">
+              <p className="contact-subtitle">
+              Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you.
+Simply fill the from and send me an email.
               </p>
+              </div>
+                    <div className="col-md-6">
+                      <p>
+                        Add something
+                      </p>
+              </div>
+              </div>
             </div>
           </div>
         </div>

@@ -14,15 +14,7 @@ text-align: center;
 }
 
 header {
-  /* background-color: #8e8d8a; */
-  /* background-color: navbarBg; */
-  /* color: #fff; */
   padding: 20px;
-  /* position: 'sticky'; */
-  /* top: 0; */
-  /* backgroundColor: navbarBg; */
-  /* transition: 'background-color 0.3s ease-in-out'; */
-  /* z-index:999 */
 }
   
   nav ul {
@@ -83,8 +75,6 @@ header {
 }
 
 .vertical-timeline-element-date{
-  /* this is the vertical line */
-  /* color: #8e8d8a!important; */
   color:var(--bs-gray-900)!important;
 }
 .vertical-timeline::before {
@@ -102,8 +92,9 @@ header {
 /* Project Section */
 .ProjectSection {
   background-color: #EAE7DC;
-  height: 65vh;
+  /* height: 65vh; */
   margin-bottom: 20px; 
+  padding-bottom: 20px; 
   padding-top: 20px; 
   text-align: center;
 }
@@ -120,26 +111,22 @@ header {
 .ProjectSection h1{
 margin-bottom: 20px;
 }
-
-
 .card-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 
 }
-
 .card-row {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
-
 .card{
   margin-right: 30px;
   flex-grow: 1;
-  margin: 0 5px; /* Adjust the value to control the horizontal spacing */
+
+  margin:  5px; /* Adjust the value to control the horizontal spacing */
   flex-basis: calc(33.33% - 10px); /* Adjust the value to control the card width */
 }
 
@@ -152,17 +139,21 @@ margin-bottom: 20px;
 
 /* Contact Section*/
 .ContactSection {
-  background-color: #EAE7DC;
-  height: 80vh;
+  /* background-color: #EAE7DC; */
+  height: 20vh;
   margin-bottom: 20px; 
-  text-align: center;
+  /* text-align: center; */
 }
-.ContactSection .intro-content{
-  /* position: absolute; */
+ .Project-content{
   top:40%;
-  left: 40%;
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: red; */
+  /* left: 40%; */
+}
+.Underline {
+  width: 200px;
+  height: 4px;
+  display: flex;
+  background-color: #8e8d8a;
+}
+.ProjectSection h1{
+margin-bottom: 20px;
 }

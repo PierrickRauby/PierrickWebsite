@@ -5,6 +5,7 @@ import Button from '@mui/joy/Button';
 import Card from '@mui/joy/Card';
 import CardContent from '@mui/joy/CardContent';
 import Typography from '@mui/joy/Typography';
+import { CardActions } from '@mui/material';
 // import IconButton from '@mui/joy/IconButton';
 // import BookmarkAdd from '@mui/icons-material/BookmarkAddOutlined';
 
@@ -21,28 +22,26 @@ export default function BasicCard(props) {
         <AspectRatio minHeight="120px" maxHeight="200px">
           <img
             src={props.PhotoSrc}
-            // srcSet="https://images.unsplash.com/photo-1527549993586-dff825b37782?auto=format&fit=crop&w=286&dpr=2 2x"
             loading="lazy"
             alt=""
           />
         </AspectRatio>
-        <CardContent orientation="horizontal">
+        <CardContent orientation="vertical">
           <div>
-            <Typography level="body3">Total price:</Typography>
-            <Typography fontSize="lg" fontWeight="lg">
-              $2,900
-            </Typography>
+            <Typography level="body3">{props.Caption}</Typography>
           </div>
-          <Button
-            variant="solid"
-            size="sm"
-            color="primary"
-            aria-label="Explore Bahamas Islands"
-            sx={{ ml: 'auto', fontWeight: 600 }}
-          >
-            Explore
-          </Button>
         </CardContent>
+        <CardActions>
+          <Button
+            variant="outlined"
+            size="sm"
+            color="neutral"
+            aria-label="More"
+            sx={{ mr: 'auto', ml:'auto', fontWeight: 600 }}
+          >
+            more
+          </Button>
+        </CardActions>
       </Card>
         );
     }
