@@ -9,6 +9,7 @@ import Timeline from './Timeline';
 import Intro from './Intro';
 import Projects from './Projects'
 import Skills from './Skills'
+import Footer from './Footer'
 const Home = () => {
 
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Timeline/>
       <Projects/>
       <Skills/>
+      <Footer/>
     </div>
   )
 
