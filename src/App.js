@@ -1,26 +1,57 @@
-import React from 'react';
+import React,{Component} from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import CircularProgress from '@mui/material/CircularProgress';
 import Home from './components/Home';
-// import About from './components/About';
 import Running from './components/Running';
 import './styles.css'; // Import the styles.css file
 
-function App() {
-  return (
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: null,
+      loading: true,
+    };
+  }
+
+  componentDidMount() {
+    this.fetchData();
+  }
+
+  fetchData = async () => {
+    try {
+      const response = await fetch('https://api.example.com/data');
+      const jsonData = await response.json();
+      this.setState({ data: jsonData, loading: false });
+    } catch (error) {
+      console.error('Error fetching data:', error);
+      this.setState({ loading: false });
+    }
+  };
+
+  render() {
+    const { resumeData, loading } = this.state;
+  return(
+    <div>
+    {loading ? (
+      <CircularProgress />
+    ):(
     <Router>
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/Running" element={<Running/>} />
-          <Route path="/Rung" element={<Running/>} />
-          {/* <Route path="/contact" element={<Contact />} /> */}
-          {/* <Route path="/about" element={<About />} /> */}
+          <Route path="/" element={<Home data={resumeData}/>} />
+          {/*TODO: Need to add running data below*/}
+          <Route path="/Running" element={<Running />} />
+          <Route path="/Run" element={<Running/>} />
         </Routes>
       </div>
     </Router>
-  );
-}
+    )}
+  </div>
 
+
+  );}
+}
 export default App;

@@ -2,10 +2,10 @@ import React from "react"
 import Card from './Card'
 function Projects() {
   return (
-      <div className="ProjectSection">
+      <div  className="ProjectSection">
         <div className="Project-content display-table">
             <div className="card-container">
-            <h1 className="HomeProjectSection">Projects</h1>
+            <h1 id="HomeProjectSection">Projects</h1>
             {/* <div className="Underline"/> */}
             <div className="card-row">
               <Card Title="Ph.D Thesis" Date="2018-2021" PhotoSrc="/images/MFS.jpg" Caption="Detecting Bearing defects at the Edge using realtime Vibration Data acquisition, Wavelet Transforms, Neural Network and Federated Learning" />

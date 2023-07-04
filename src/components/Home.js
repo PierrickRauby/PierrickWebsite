@@ -10,12 +10,12 @@ import Intro from './Intro';
 import Projects from './Projects'
 import Skills from './Skills'
 import Footer from './Footer'
-const Home = () => {
+const Home = (data) => {
 
   return (
     <div className='vstach gap-3'>
-      <Intro className='vertical-item' />
-      <Timeline/>
+      <Intro data={data.info} className='vertical-item' />
+      <Timeline />
       <Projects/>
       <Skills/>
       <Footer/>
@@ -25,3 +25,14 @@ const Home = () => {
 };
 
 export default Home;
+
+
+// 
+// const SubComponent = ({ data }) => {
+//   return (
+//     <div>
+//       <p>Info: {data && data.info}</p>
+//       <p>Test: {data && data.test}</p>
+//     </div>
+//   );
+// };
