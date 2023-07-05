@@ -6,7 +6,9 @@ body {
     padding: 0;
   }
   
-
+h1{
+  font-size: 1.5rem!important
+}
 .intro-content{
 text-align: center;
   display: flex;
@@ -88,7 +90,29 @@ header {
   width: 4px;
   background: var(--line-color);
 }
+.material-icons{
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 50%;
+  top: 40%;
+  margin-left: -12px;
+  margin-top: -12px;
+}
+.vertical-timeline-element h3{
+  font-size:  18px;
+}
+.vertical-timeline-element h5{
+  font-size:  0.9rem;
+}
 
+.vertical-timeline-element ul{
+  font-size:  0.875rem;
+}
+.vertical-timeline-element .chip-skill{
+margin-right: 5px;
+}
 /* Project Section */
 .ProjectSection {
   background-color: #EAE7DC;

@@ -39,7 +39,10 @@ class App extends Component {
     ):(
     <Router>
       <div className="App">
-        <Navbar />
+      <link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+/><Navbar />
         <Routes>
           <Route path="/" element={<Home resumeData={resumeData}/>} />
           {/*TODO: Need to add running data below*/}

@@ -9,7 +9,7 @@ const Home = (props) => {
   return (
     <div className='vstach gap-3'>
       <Intro info={props.resumeData.info} className='vertical-item' />
-      <Timeline />
+      <Timeline data={props.resumeData.resume.experience}/>
       <Projects/>
       <Skills/>
       <Footer/>
@@ -19,14 +19,3 @@ const Home = (props) => {
 };
 
 export default Home;
-
-
-// 
-// const SubComponent = ({ data }) => {
-//   return (
-//     <div>
-//       <p>Info: {data && data.info}</p>
-//       <p>Test: {data && data.test}</p>
-//     </div>
-//   );
-// };

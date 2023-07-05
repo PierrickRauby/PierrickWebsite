@@ -1,6 +1,7 @@
 {
     "info": {
-        "name": "Pierrick Rauby",
+        "firstName": "Pierrick",
+        "lastName": "Rauby",
         "titles": [
             "Senior Application Engineer",
             "Embedded Software Engineer",
@@ -35,6 +36,25 @@
     "resume": {
         "experience": [
             {
+                "title": "Senior Application Engineer",
+                "compagny": "The Mathworks",
+                "team": "Engineering Development Group",
+                "dateStart": "October 2022",
+                "dateEnd": "Present",
+                "keyResponsability": [
+                    "Within the Hardware team, working on the implementation of event-based Serial and TCP/IP communication between MATLAB and connected hardware. Assisting development teams in identifying software limitations, bugs, and potential improvements.",
+"Within the Engineering Development Group (EDG), delivering high-quality support to MathWorks customers"
+                ],
+                "skills": [
+                    "MATLAB",
+                    "C++",
+                    "Boost Libraries",
+                    "Simulink"
+                ],
+                "icon":"computer-icon"
+
+            },
+            {
                 "title": "Software Engineer",
                 "compagny": "FormLogic",
                 "team": "Automation Engineering Team",
@@ -54,7 +74,8 @@
                     "Rust",
                     "Python",
                     "React"
-                ]
+                ],
+                "icon":"precision_manufacturing"
             },
             {
                 "title": "Graduate Research Assistant",
@@ -71,7 +92,8 @@
                     "Python",
                     "AWS",
                     "S3"
-                ]
+                ],
+                "icon":"school-icon"
             },
             {
                 "title": "Graduate Teaching Assistant",
@@ -87,7 +109,8 @@
                     "Teaching",
                     "Public Speaking",
                     "Communication"
-                ]
+                ],
+                "icon":"school-icon"
             },
             {
                 "title": "Graduate Research Assistant",
@@ -104,7 +127,8 @@
                     "C++",
                     "MQTT",
                     "Zigbee"
-                ]
+                ],
+                "icon":"school-icon"
             },
             {
                 "title": "Graduate Research Assistant",
@@ -121,7 +145,8 @@
                     "C++",
                     "MQTT",
                     "Zigbee"
-                ]
+                ],
+                "icon":"school-icon"
             },
             {
                 "title": "Graduate Research Assistant",
@@ -138,7 +163,8 @@
                     "Linux Kernel",
                     "Real-time Processing",
                     "C"
-                ]
+                ],
+                "icon":"school-icon"
             },
             {
                 "title": "R&D Intern",
@@ -155,7 +181,8 @@
                     "Additive Manufacturing",
                     "CAD",
                     "Heat Transfert"
-                ]
+                ],
+                "icon":"rocket_launch-icon"
             },
             {
                 "title": "Sailing instructor",
@@ -171,7 +198,8 @@
                     "Leadership",
                     "Team Work",
                     "Risk Management"
-                ]
+                ],
+                "icon":"sailing-icon"
             }
         ],
         "education": [
