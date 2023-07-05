@@ -9,11 +9,6 @@ body {
 h1{
   font-size: 1.5rem!important
 }
-.intro-content{
-text-align: center;
-  display: flex;
-  justify-content: center;
-}
 
 header {
   padding: 20px;
@@ -53,6 +48,12 @@ header {
   border: 1px solid black;
 }
 /* Intro */
+
+.intro-content{
+text-align: center;
+  display: flex;
+  justify-content: center;
+}
 
 #IntroBackground {
   background-color: #EAE7DC;

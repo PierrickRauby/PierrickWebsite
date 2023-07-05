@@ -10,25 +10,25 @@
         "contact": {
             "email": "pierrick.rauby@gadz.com"
         },
-        "social_media": [
+        "socialMedia": [
             {
                 "name": "github",
-                "url": "github.com/prauby",
-                "icon": "fab fab-github"
+                "url": "https://github.com/prauby",
+                "icon": "github-icon"
             },
             {
                 "name": "linkedin",
-                "url": "linkedin.com/prauby",
-                "icon": "fab fab-linkedin"
+                "url": "https://linkedin.com/prauby",
+                "icon": "linkedin-icon"
             },
             {
                 "name": "strava",
-                "url": "strava.com/prauby",
-                "icon": "fab fab-strava"
+                "url": "https://strava.com/prauby",
+                "icon": "running-icon"
             },
             {
                 "name": "instagram",
-                "url": "instagram.com/prauby",
+                "url": "https://instagram.com/prauby",
                 "icon": "fab fab-instagram"
             }
         ]
@@ -38,6 +38,7 @@
             {
                 "title": "Senior Application Engineer",
                 "compagny": "The Mathworks",
+                "compagnyLink": "https://mathworks.com",
                 "team": "Engineering Development Group",
                 "dateStart": "October 2022",
                 "dateEnd": "Present",
@@ -57,6 +58,7 @@
             {
                 "title": "Software Engineer",
                 "compagny": "FormLogic",
+                "compagnyLink": "https://formlogic.com",
                 "team": "Automation Engineering Team",
                 "dateStart": "March 2022",
                 "dateEnd": "September 2022",
@@ -80,6 +82,7 @@
             {
                 "title": "Graduate Research Assistant",
                 "compagny": "Georgia Institute of Technology",
+                "compagnyLink": "https://mathworks.com",
                 "team": "Sponsor: GeorgiaPacific",
                 "dateStart": "August 2018",
                 "dateEnd": "December 2021",
@@ -98,6 +101,7 @@
             {
                 "title": "Graduate Teaching Assistant",
                 "compagny": "Georgia Institute of Technology",
+                "compagnyLink": "https://mathworks.com",
                 "team": "Class: ME622",
                 "dateStart": "August 2019",
                 "dateEnd": "December 2020",
@@ -115,60 +119,30 @@
             {
                 "title": "Graduate Research Assistant",
                 "compagny": "Georgia Institute of Technology",
+                "compagnyLink": "https://mathworks.com",
                 "team": "Sponsor: Thyssenkrupp Elevator",
-                "dateStart": "January 2018",
+                "dateStart": "August 2017",
                 "dateEnd": "August 2018",
                 "keyResponsability": [
-                    "Integrated temperature, current, position, and vibration sensors and developed Embedded C Software for real-time condition monitoring of an elevator.",
-                    "Implemented RF transmission of processed data using Zigbee protocol between the control room and the elevator’s cage."
-                ],
-                "skills": [
-                    "C",
-                    "C++",
-                    "MQTT",
-                    "Zigbee"
-                ],
-                "icon":"school-icon"
-            },
-            {
-                "title": "Graduate Research Assistant",
-                "compagny": "Georgia Institute of Technology",
-                "team": "Sponsor: Thyssenkrupp Elevator",
-                "dateStart": "January 2018",
-                "dateEnd": "October 2018",
-                "keyResponsability": [
-                    "Integrated temperature, current, position, and vibration sensors and developed Embedded C Software for real-time condition monitoring of an elevator.",
-                    "Implemented RF transmission of processed data using Zigbee protocol between the control room and the elevator’s cage."
-                ],
-                "skills": [
-                    "C",
-                    "C++",
-                    "MQTT",
-                    "Zigbee"
-                ],
-                "icon":"school-icon"
-            },
-            {
-                "title": "Graduate Research Assistant",
-                "compagny": "Georgia Institute of Technology",
-                "team": "Technology Exploration of the Process Real-time Units of the Ti-am355x",
-                "dateStart": "August 2017",
-                "dateEnd": "January 2018",
-                "keyResponsability": [
                     "Validated capabilities of the Process Real-time Units, a fast micro-controller integrated into the Texas Instrument am335x chips.",
-                    "Released tutorials, documentation, and examples of embedded C codes for Professor Thomas Kurfess’ team.",
-                    "Released Open Source documentation"
+                    "Released tutorials, Open Source documentation, and examples of embedded C codes for Professor Thomas Kurfess’ team.",
+                    "Integrated temperature, current, position, and vibration sensors and developed Embedded C Software for real-time condition monitoring of an elevator.",
+                    "Implemented RF transmission of processed data using Zigbee protocol between the control room and the elevator’s cage."
                 ],
                 "skills": [
+                    "C",
+                    "C++",
+                    "MQTT",
+                    "Zigbee",
                     "Linux Kernel",
-                    "Real-time Processing",
-                    "C"
+                    "Real-time Processing"
                 ],
                 "icon":"school-icon"
             },
             {
                 "title": "R&D Intern",
                 "compagny": "Airbus Group",
+                "compagnyLink": "https://mathworks.com",
                 "team": "Design and Fabrication of an Additive Manufactured heat management System",
                 "dateStart": "Januaray 2017",
                 "dateEnd": "August 2017",
@@ -187,6 +161,7 @@
             {
                 "title": "Sailing instructor",
                 "compagny": "Ars en Ré Yacht Club",
+                "compagnyLink": "https://mathworks.com",
                 "team": "Seasonal Work",
                 "dateStart": "June 2013",
                 "dateEnd": "August 2017",
@@ -206,6 +181,7 @@
             {
                 "title": "Ph.D. Mechanical Engineering",
                 "compagny": "Georgia Institute of Technology",
+                "compagnyLink": "https://mathworks.com",
                 "GPA":"",
                 "date": "December 2021",
                 "key": [
@@ -227,6 +203,7 @@
             {
                 "title": "M.S. Computer Science & Engineering",
                 "compagny": "Georgia Institute of Technology",
+                "compagnyLink": "https://mathworks.com",
                 "GPA":"3.78",
                 "date": "December 2021",
                 "key": [
@@ -241,6 +218,7 @@
             {
                 "title": "M.S. Mechanical Engineering",
                 "compagny": "Georgia Institute of Technology",
+                "compagnyLink": "https://mathworks.com",
                 "GPA":"3.85",
                 "date": "August 2018",
                 "key": [
@@ -257,6 +235,7 @@
             {
                 "title": "M.S. Engineering",
                 "compagny": "Arts Et Metiers ParisTech",
+                "compagnyLink": "https://mathworks.com",
                 "GPA":"4.0",
                 "date": "August 2018",
                 "key": [

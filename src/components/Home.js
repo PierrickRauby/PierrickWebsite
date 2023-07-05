@@ -12,7 +12,7 @@ const Home = (props) => {
       <Timeline data={props.resumeData.resume.experience}/>
       <Projects/>
       <Skills/>
-      <Footer/>
+      <Footer data={props.resumeData.info}/>
     </div>
   )
 
