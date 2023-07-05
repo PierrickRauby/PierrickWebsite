@@ -21,9 +21,9 @@ class App extends Component {
 
   fetchData = async () => {
     try {
-      const response = await fetch('https://api.example.com/data');
+      const response = await fetch('resume.json');
       const jsonData = await response.json();
-      this.setState({ data: jsonData, loading: false });
+      this.setState({ resumeData  : jsonData, loading: false });
     } catch (error) {
       console.error('Error fetching data:', error);
       this.setState({ loading: false });
@@ -41,7 +41,7 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home data={resumeData}/>} />
+          <Route path="/" element={<Home resumeData={resumeData}/>} />
           {/*TODO: Need to add running data below*/}
           <Route path="/Running" element={<Running />} />
           <Route path="/Run" element={<Running/>} />

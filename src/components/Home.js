@@ -1,20 +1,14 @@
-
 import React from 'react';
-// import ControlledCarousel from './ControlledCarousel';
-// import Container from 'react-bootstrap/Container'
-// import Row from 'react-bootstrap/Row'
-// import Timeline from './Timeline';
-// import VerticalTimeline from './VerticalTimeline';
-import Timeline from './Timeline';
 import Intro from './Intro';
+import Timeline from './Timeline';
 import Projects from './Projects'
 import Skills from './Skills'
 import Footer from './Footer'
-const Home = (data) => {
+const Home = (props) => {
 
   return (
     <div className='vstach gap-3'>
-      <Intro data={data.info} className='vertical-item' />
+      <Intro info={props.resumeData.info} className='vertical-item' />
       <Timeline />
       <Projects/>
       <Skills/>
