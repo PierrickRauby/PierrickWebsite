@@ -13,23 +13,23 @@
         "socialMedia": [
             {
                 "name": "github",
-                "url": "https://github.com/prauby",
-                "icon": "github-icon"
+                "url": "https://github.com/PierrickRauby",
+                "icon": "fa-brands fa-github"
             },
             {
                 "name": "linkedin",
-                "url": "https://linkedin.com/prauby",
-                "icon": "linkedin-icon"
+                "url": "https://www.linkedin.com/in/pierrickrauby",
+                "icon": "fa-brands fa-linkedin-in"
             },
             {
                 "name": "strava",
-                "url": "https://strava.com/prauby",
-                "icon": "running-icon"
+                "url": "https://www.strava.com/athletes/32156369",
+                "icon": "fa-brands fa-strava"
             },
             {
                 "name": "instagram",
-                "url": "https://instagram.com/prauby",
-                "icon": "fab fab-instagram"
+                "url": "https://www.instagram.com/pierrickrby/",
+                "icon": "fab fa-instagram"
             }
         ]
     },
@@ -174,7 +174,7 @@
                     "Team Work",
                     "Risk Management"
                 ],
-                "icon":"sailing-icon"
+                "icon": "sailing-icon"
             }
         ],
         "education": [

@@ -1,4 +1,5 @@
 import React from 'react';
+import { v4 as uuidv4 } from 'uuid';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { Icon, Chip, List } from '@mui/material';
@@ -14,6 +15,7 @@ function Timeline(props) {
       <VerticalTimeline id='VerticalTimeline'>
         {props.data.map((experience) => (
           <VerticalTimelineElement
+          key={uuidv4()}
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#7395AE', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #7395AE' }}
@@ -24,13 +26,13 @@ function Timeline(props) {
             <h3 className="vertical-timeline-element-title">{experience.title}</h3>
             <h5 className="vertical-timeline-element-subtitle">{experience.compagny}</h5>
             {experience.keyResponsability.map((responsability) => (
-              <List>{responsability}</List>
+              <List key={uuidv4()}>{responsability}</List>
             ))}
             <div>
 
               <div>
                 {experience.skills.map((skill) => (
-                  <Chip className="chip-skill" label={skill} />
+                  <Chip key={uuidv4()} className="chip-skill" label={skill} />
                 ))}
               </div>
             </div>

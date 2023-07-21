@@ -194,11 +194,15 @@ footer {
 footer a,
 footer a:visited {
 	color: #fff;
+  text-decoration:none;
 }
 
 footer a:hover,
 footer a:focus {
 	color: #fff;
+}
+.footer-icon{
+font-size: 20px;
 }
 
 .social-links {

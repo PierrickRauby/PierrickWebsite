@@ -1,30 +1,38 @@
 import React from "react";
-import { Chip,Icon,Link,Linkedin} from '@mui/material'
-<link
-  rel="stylesheet"
-  href="https://fonts.googleapis.com/icon?family=Material+Icons"
-/>
+import { v4 as uuidv4 } from 'uuid';
+import '@fortawesome/free-brands-svg-icons'
 
-function Footer(props){
-    return (
-      <footer>
-        <div className="col-md-12">
-          <div className="copyright py-4 text-center">
-            <div className="container">
-              <small>
-                Copyright &copy; <Link href={props.data.contact}>Pierrick Rauby 2023</Link>
-                <stack row>
-              {props.data.socialMedia.map((social)=>(
-              // <Chip icon={<Icon>{social.icon}</Icon>} label={social.name} component="a" href={social.url} clickable />
-              <Chip icon={<Linkedin />} label={social.name} component="a" href={social.url} clickable />
-              ))}
-                </stack>
-             </small>
-            </div>
+const EmailLink = (props) => {
+  const subject = 'Contact from website';
+  const body = '<ENTER YOUR MESSAGE>';
+
+  const mailtoUrl = `mailto:${props.data.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  return (
+    <a href={mailtoUrl}>Pierrick Rauby 2023</a>
+  );
+};
+
+function Footer(props) {
+  return (
+    <footer>
+      <div className="col-md-12 py-4">
+        {props.data.socialMedia.map((social) => (
+          <span key={uuidv4()} className="m-3">
+            <a href={social.url} target="_blank" rel="noopener noreferrer">
+              <i className={`footer-icon ${social.icon}`}></i>
+            </a>
+          </span>
+        ))}
+        <div className="copyright text-center py-2">
+          <div className="container">
+            <small>
+              Copyright &copy; <EmailLink data={props.data.contact} />
+            </small>
           </div>
         </div>
-      </footer>
-    );
+      </div>
+    </footer>
+  );
 }
 
 export default Footer;
