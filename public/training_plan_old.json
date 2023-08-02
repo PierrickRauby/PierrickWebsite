@@ -1,0 +1,337 @@
+{
+    "phases": [
+        {
+            "name": "Phase 1",
+            "weeks": [
+                {
+                    "name": "Week 1",
+                    "days": [
+                        {
+                            "name": "Day 1",
+                            "E": "10' FC1-2",
+                            "SC": "20-45' FC2. Increase pace for 20\" every 5'",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 2",
+                            "E": "5-10' FC1-2",
+                            "SC": "20-45' FC2. Increase pace for 20\" every 5'",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 3",
+                            "E": "15\" FC1-3 + 4x30\" increase pace with 1'R",
+                            "SC": "20-45' FC2. Increase pace for 20r every 5'",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 4",
+                            "E": "5-10' FC1-2",
+                            "SC": "20-45' FC2. Increase pace for 20\" every 5'",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 5",
+                            "E": "5' from FC1 to FC2",
+                            "SC": "10-40' FC2, then 10' V1",
+                            "R": "5-10' FC1"
+                        },
+                        {
+                            "name": "Day 6",
+                            "E": "5' from FC1 to FC2",
+                            "SC": "30-65' FC2",
+                            "R": "5' FC1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Week 2",
+                    "days": [
+                        {
+                            "name": "Day 1",
+                            "E": "10' FC1-2",
+                            "SC": "10-35' FC2. Increase pace for 20\" every 5', then 6x10\" V7 with 1-2'R",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "*Day 2",
+                            "E": "5-10' FC1-2",
+                            "SC": "20-45' FC2. Increase pace for 20\" every 5'",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 3",
+                            "E": "15\" FC1-3 + 4x30\" increase pace with 1'R",
+                            "SC": "3-4x(2' up-hill with 2-3'R) then 3-4x(2' V4 with 2'R)",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "*Day 4",
+                            "E": "5' FC1-2",
+                            "SC": "10-30' FC2. Increase pace for 20\" every 5'",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 5",
+                            "E": "15' up to FC3",
+                            "SC": "2-3x(5' FC3 with 2'R), then 5x(20\" with 1'R)",
+                            "R": "5-10' FC1-2"
+                        },
+                        {
+                            "name": "Day 6",
+                            "E": "5-10' from FC1 to FC2",
+                            "SC": "long run at FC2 10-15' more than previous week",
+                            "R": "5' FC1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Week 3",
+                    "days": [
+                        {
+                            "name": "Day 1",
+                            "E": "10' FC1-2",
+                            "SC": "20-45' FC2. Increase pace for 20\" every 5'",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "*Day 2",
+                            "E": "5-10' FC1-2",
+                            "SC": "20-45' FC2. Increase pace for 20\" every 5'",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 3",
+                            "E": "15\" FC1-3 + 4x30\" increase pace with 1'R",
+                            "SC": "6-8x(2' V4 with 2'R)",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "*Day 4",
+                            "E": "5' FC1-2",
+                            "SC": "Slow recovery run",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 5",
+                            "E": "15\" FC1-3 + 4x30\" increase pace with 1'R",
+                            "SC": "3-5x(1' V6-7 with 1-2'R), then 5x(30\" V7 with 2'R)",
+                            "R": "5' FC1-2"
+                        },
+                        {
+                            "name": "Day 6",
+                            "E": "5-10' from FC1 to FC2",
+                            "SC": "long run at FC2 10-15' more than previous week",
+                            "R": "5' FC1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Week 4",
+                    "days": [
+                        {
+                            "name": "Day 1",
+                            "E": "10' FC1-2",
+                            "SC": "15-30' FC2. Increase pace for 20\" every 5'",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "*Day 2",
+                            "E": "5' FC1-2",
+                            "SC": "Slow recovery run",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 3",
+                            "E": "15\" FC1-3 + 4x30\" increase pace with 1'R",
+                            "SC": "15-30' at V1",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 4",
+                            "E": "",
+                            "SC": "Rest",
+                            "R": ""
+                        },
+                        {
+                            "name": "Day 5",
+                            "E": "10' FC1-2",
+                            "SC": "15-30' FC2",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 6",
+                            "E": "5-10' from FC1 to FC2",
+                            "SC": "long run at FC2. Do not increase duration",
+                            "R": "5' FC1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Week 5",
+                    "days": [
+                        {
+                            "name": "Day 1",
+                            "E": "15\" FC1-3 + 4x30\" increase pace with 1'R",
+                            "SC": "3x(5' FC5 with 2'R)",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 2",
+                            "E": "15\" FC1-3 + 4x30\" increase pace with 1'R",
+                            "SC": "5-8(10\" sprint with 1-2'R)",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "*Day 3",
+                            "E": "5-10' from FC1 to FC2",
+                            "SC": "15-40' at FC2",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 4",
+                            "E": "15\" FC1-3 + 4x30\" increase pace with 1'R",
+                            "SC": "5-8(60-90\" uphill with 2-3'R)",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "*Day 5",
+                            "E": "5-10' from FC1 to FC2",
+                            "SC": "10-20' FC3",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 6",
+                            "E": "5-10' from FC1 to FC2",
+                            "SC": "long run at FC2 10-15' more than previous week",
+                            "R": "5' FC1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Week 6",
+                    "days": [
+                        {
+                            "name": "Day 1",
+                            "E": "5-10' FC1-2",
+                            "SC": "20-45' FC2. Increase pace for 20\" every 5'",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 2",
+                            "E": "15\" FC1-3 + 4x30\" increase pace with 1'R",
+                            "SC": "4x(5' FC5 with 2'R)",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "*Day 3",
+                            "E": "5' FC1-2",
+                            "SC": "Slow recovery run",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 4",
+                            "E": "15\" FC1-3 + 4x30\" increase pace with 1'R",
+                            "SC": "4-5x(10\" with 1-2'R), then 4-6x(1'V7 with 2'R)",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "*Day 5",
+                            "E": "5-10' from FC1 to FC2",
+                            "SC": "10-30' FC2",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 6",
+                            "E": "5-10' from FC1 to FC2",
+                            "SC": "long run at FC2. Do not increase duration",
+                            "R": "5' FC1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Week 7",
+                    "days": [
+                        {
+                            "name": "*Day 1",
+                            "E": "5-10' FC1-2",
+                            "SC": "20-45' FC2. Increase pace for 20\" every 5'",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 2",
+                            "E": "5-10' FC1-2",
+                            "SC": "20-45' FC2. Increase pace for 20\" every 5'",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "*Day 3",
+                            "E": "15\" FC1-3 + 4x30\" increase pace with 1'R",
+                            "SC": "4-6x(3'V4 with 2'R)",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "*Day 4",
+                            "E": "5-10' FC1-2",
+                            "SC": "15-45' FC2. Increase pace for 20\" every 5'",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "*Day 5",
+                            "E": "15\" FC1-3 + 4x30\" increase pace with 1'R",
+                            "SC": "6-10x(60\"90\" uphill, 2-3'R)",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 6",
+                            "E": "5-10' from FC1 to FC2",
+                            "SC": "long run at FC2 10-15' more than previous week",
+                            "R": "5' FC1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Week 8",
+                    "days": [
+                        {
+                            "name": "*Day 1",
+                            "E": "5-10' FC1-2",
+                            "SC": "15-30' FC2. Increase pace for 20\" every 5'",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 2",
+                            "E": "",
+                            "SC": "Rest",
+                            "R": ""
+                        },
+                        {
+                            "name": "Day 3",
+                            "E": "5-10' FC1-2",
+                            "SC": "20-45' FC2. Increase pace for 20\" every 5'",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "Day 4",
+                            "E": "5-10' FC1-2",
+                            "SC": "20-40' V1",
+                            "R": "5' FC1"
+                        },
+                        {
+                            "name": "*Day 5",
+                            "E": "",
+                            "SC": "Rest",
+                            "R": ""
+                        },
+                        {
+                            "name": "Day 6",
+                            "E": "5-10' from FC1 to FC2",
+                            "SC": "long run at FC2. Do not increase duration",
+                            "R": "5' FC1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
