@@ -1,4 +1,4 @@
-/* src/styles.css */
+src/styles.css
 
 body {
     font-family: Arial, sans-serif;
@@ -49,11 +49,11 @@ header {
 }
 /* Intro */
 
-.intro-content{
+/* .intro-content{
 text-align: center;
   display: flex;
   justify-content: center;
-}
+} */
 
 #IntroBackground {
   background-color: #EAE7DC;
@@ -65,7 +65,28 @@ text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh; 
+  height: 80vh !important; 
+}
+#ParticleContainer {
+  position: relative
+}
+
+#tsparticles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  z-index: -1; /* if you use -1 you have to set to `"window"` the interactivity.detectsOn property */
+}
+
+#your-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 /* Timeline */
