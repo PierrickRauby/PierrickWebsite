@@ -45,6 +45,7 @@ class App extends Component {
               /><Navbar />
               <Routes>
                 <Route path="/" element={<Home resumeData={resumeData} />} />
+                <Route path="/maison" element={<Home resumeData={resumeData} />} />
                 <Route path="/Running" element={<Running />} />
                 <Route path="/Run" element={<Running />} />
               </Routes>
