@@ -36,13 +36,13 @@ const StickyNavbar = () => {
       <nav>
         <ul>
           <li>
-            <a href="/#">Home</a>
+            <a href="#">Home</a>
           </li>
           <li>
-            <a href="/#HomeAboutSection">About</a>
+            <a href="#HomeAboutSection">About</a>
           </li>
           <li>
-            <a href="/#HomeProjectSection">Projects</a>
+            <a href="#HomeProjectSection">Projects</a>
           </li>
           {/* <li>
             <a href="/#HomeContactSection">Contact</a>
