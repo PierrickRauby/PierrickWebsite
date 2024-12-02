@@ -21,7 +21,7 @@ class App extends Component {
 
   fetchData = async () => {
     try {
-      const response = await fetch('resume.json');
+      const response = await fetch('/resume.json');
       const jsonData = await response.json();
       this.setState({ resumeData: jsonData, loading: false });
     } catch (error) {
