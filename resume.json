@@ -134,25 +134,16 @@
         "compagnyLink": "https://mathworks.com",
         "GPA": "",
         "date": "December 2021",
-        "key": [
-          {
-            "title": "Ph.D. Thesis",
-            "description": "Parallel wavelet transformation for edge and fog detection of bearing defects."
-          },
-          {
-            "description": "Developed and tested a new method for bearing defects identification using parallel computing at the edge to process bearing vibration data."
-          },
-          {
-            "description": "Developed an open source I2C driver for Ti-Am5729 Process Real-time Units and interfaced with Linux Kernel for real-time data acquisition."
-          },
-          {
-            "description": " Developed Federated Learning Simulation Library for centralized and federated learning comparison on the vibration data."
-          },
-          {
-            "description": "Leveraged recent technology developments on embedded systems to enable real-time data processing at the sensor’s level."
-          }
+        "keyResponsability": [
+          "Ph.D Thesis:",
+          "∠ Parallel wavelet transformation for edge and fog detection of bearing defects.",
+          "∠ Developed and tested a new method for bearing defects identification using parallel computing at the edge to process bearing vibration data.",
+          "∠ Developed an open source I2C driver for Ti-Am5729 Process Real-time Units and interfaced with Linux Kernel for real-time data acquisition.",
+          "∠ Developed Federated Learning Simulation Library for centralized and federated learning comparison on the vibration data.",
+          "∠ Leveraged recent technology developments on embedded systems to enable real-time data processing at the sensor’s level."
         ],
-        "skills": ["Linux Embedded", "Real-time Application", "C", "C++", "I2C"]
+        "skills": ["Linux Embedded", "Real-time Application", "C", "C++", "I2C"],
+        "icon": "developer_board"
       },
       {
         "title": "M.S. Computer Science & Engineering",
@@ -160,13 +151,12 @@
         "compagnyLink": "https://mathworks.com",
         "GPA": "3.78",
         "date": "December 2021",
-        "key": [
-          {
-            "title": "Courses",
-            "description": "High Performance Computing, Numerical Linear Algebra, Data Visualization and Analytics, Machine Learning, Modeling and Simulation, Computational Data Analysis, Aerospace System Engineering, Aircraft Design."
-          }
+        "keyResponsability": [
+            "Courses:",
+            "∠ High Performance Computing, Numerical Linear Algebra, Data Visualization and Analytics, Machine Learning, Modeling and Simulation, Computational Data Analysis, Aerospace System Engineering, Aircraft Design."
         ],
-        "skills": ["Machine Learning", "High Perfomance Computing"]
+        "skills": ["Machine Learning", "High Perfomance Computing"],
+        "icon": "computer-icon"
       },
       {
         "title": "M.S. Mechanical Engineering",
@@ -174,17 +164,12 @@
         "compagnyLink": "https://mathworks.com",
         "GPA": "3.85",
         "date": "August 2018",
-        "key": [
-          {
-            "title": "Master Thesis",
-            "description": "Developing a smart and low-cost device for machining vibration analysis"
-          },
-          {
-            "title": "Courses",
-            "description": "Continuum Mechanics, Inelastic Deformation of Solids, Micromechanics of Materials, Manufacturing Process and Systems, Modelling and Simulation in Design, Automated Manufacturing Process Planning, Structural Vibration."
-          }
+        "keyResponsability": [
+            "Master Thesis: Developing a smart and low-cost device for machining vibration analysis",
+            "Courses: Continuum Mechanics, Inelastic Deformation of Solids, Micromechanics of Materials, Manufacturing Process and Systems, Modelling and Simulation in Design, Automated Manufacturing Process Planning, Structural Vibration."
         ],
-        "skills": ["Linux Kernel Driver", "Real-time Processing"]
+        "skills": ["Linux Kernel Driver", "Real-time Processing"],
+        "icon": "engineering-icon"
       },
       {
         "title": "M.S. Engineering",
@@ -192,13 +177,11 @@
         "compagnyLink": "https://mathworks.com",
         "GPA": "4.0",
         "date": "August 2018",
-        "key": [
-          {
-            "title": "Courses",
-            "description": "Science of Materials, Machining Processes, Welding, Casting, Forging, Heat Transfer, Computer Aided Design, Statistics, Production Techniques, Industrialization."
-          }
+        "keyResponsability": [
+            "Courses: Science of Materials, Machining Processes, Welding, Casting, Forging, Heat Transfer, Computer Aided Design, Statistics, Production Techniques, Industrialization."
         ],
-        "skills": ["Public Speaking", "Communication", "CAD"]
+        "skills": ["Public Speaking", "Communication", "CAD"],
+        "icon": "engineering-icon"
       }
     ],
     "volunteering": [
