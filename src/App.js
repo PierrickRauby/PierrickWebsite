@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import CircularProgress from '@mui/material/CircularProgress';
 import Home from './components/Home';
-import Running from './components/Running';
+// import Running from './components/Running';
 import './styles.css'; // Import the styles.css file
 
 class App extends Component {
@@ -47,9 +47,6 @@ class App extends Component {
               /><Navbar />
               <Routes>
                 <Route path="/" element={<Home resumeData={resumeData} />} />
-                <Route path="/maison" element={<Home resumeData={resumeData} />} />
-                <Route path="/Running" element={<Running />} />
-                <Route path="/Run" element={<Running />} />
               </Routes>
             </div>
           </Router>

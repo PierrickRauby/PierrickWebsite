@@ -39,12 +39,19 @@ const StickyNavbar = () => {
             <HashLink to="#IntroBackground">Home</HashLink>
           </li>
           <li>
-            {/* <a href="#HomeAboutSection">About</a> */}
-            <HashLink to="#HomeAboutSection">About</HashLink>
+            <HashLink to="#Experiences">Experiences</HashLink>
           </li>
           <li>
-            {/* <a href="#HomeProjectSection">Projects</a> */}
-            <HashLink to="#HomeProjectSection">About</HashLink>
+            <HashLink to="#Projects">Projects</HashLink>
+          </li>
+          <li>
+            <HashLink to="#Education">Education</HashLink>
+          </li>
+          <li>
+            <HashLink to="#Projects1">Projects1</HashLink>
+          </li>
+          <li>
+            <HashLink to="#Projects2">Projects2</HashLink>
           </li>
         </ul>
       </nav>

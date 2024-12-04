@@ -1,6 +1,6 @@
 import React from "react"
 import { ReactTyped } from 'react-typed';
-// import ParticlesBackground from "./ParticlesBackground";
+import ParticlesBackground from "./ParticlesBackground";
 
 function Intro(props) {
 
@@ -21,7 +21,7 @@ function Intro(props) {
       <div className="intro-content display-table">
         <div className="table-cell">
           <div id="ParticleContainer" className="container">
-            {/* <ParticlesBackground/>  */}
+            <ParticlesBackground/> 
             <div id="ParticleText">
             <h1 className="intro-title mb-4">Hello, I am {props.info.firstName}</h1>
             <p className="intro-subtitle">

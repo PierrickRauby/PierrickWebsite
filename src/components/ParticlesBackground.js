@@ -19,7 +19,8 @@ function ParticlesBackground(props){
             options={{
                 background: {
                     color: {
-                        value: "#0d47a1",
+                        value: "#EAE7DC"
+                        // value: "#0d47a1",
                     },
                 },
                 fpsLimit: 120,
@@ -47,10 +48,12 @@ function ParticlesBackground(props){
                 },
                 particles: {
                     color: {
-                        value: "#ffffff",
+                        value:"#8e8d8a",
+                        // value: "#ffffff",
                     },
                     links: {
-                        color: "#ffffff",
+                        color:"#8e8d8a",
+                        // color: "#ffffff",
                         distance: 150,
                         enable: true,
                         opacity: 0.5,
@@ -63,7 +66,8 @@ function ParticlesBackground(props){
                             default: "bounce",
                         },
                         random: false,
-                        speed: 3,
+                        speed: 1,
+                        // speed: 3,
                         straight: false,
                     },
                     number: {

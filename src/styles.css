@@ -56,7 +56,7 @@ text-align: center;
 } */
 
 #IntroBackground {
-  background-color: #EAE7DC;
+  /* background-color: #EAE7DC; */
   height: 80vh;
   margin-bottom: 20px; 
   text-align: center;
@@ -90,7 +90,11 @@ text-align: center;
 }
 
 /* Timeline */
-#HomeAboutSection{
+#Experiences{
+  text-align: center;
+}
+/* Timeline */
+#Education{
   text-align: center;
 }
 
@@ -137,7 +141,7 @@ margin-right: 5px;
 }
 /* Project Section */
 .ProjectSection {
-  background-color: #EAE7DC;
+  /* background-color: #EAE7DC; */
   /* height: 65vh; */
   margin-bottom: 20px; 
   padding-bottom: 20px; 
