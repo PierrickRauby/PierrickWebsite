@@ -1,7 +1,7 @@
 {
   "name": "pierrick-react-website",
   "version": "0.1.0",
-  "homepage": "https://pierrickrauby.io",
+  "homepage": "pierrickrauby.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.5",
