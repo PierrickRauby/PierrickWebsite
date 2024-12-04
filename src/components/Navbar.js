@@ -1,6 +1,6 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import { HashLink } from 'react-router-hash-link';
 // import zIndex from '@mui/material/styles/zIndex';
 
 const StickyNavbar = () => {
@@ -36,17 +36,16 @@ const StickyNavbar = () => {
       <nav>
         <ul>
           <li>
-            <a href="#">Home</a>
+            <HashLink to="#IntroBackground">Home</HashLink>
           </li>
           <li>
-            <a href="#HomeAboutSection">About</a>
+            {/* <a href="#HomeAboutSection">About</a> */}
+            <HashLink to="#HomeAboutSection">About</HashLink>
           </li>
           <li>
-            <a href="#HomeProjectSection">Projects</a>
+            {/* <a href="#HomeProjectSection">Projects</a> */}
+            <HashLink to="#HomeProjectSection">About</HashLink>
           </li>
-          {/* <li>
-            <a href="/#HomeContactSection">Contact</a>
-          </li> */}
         </ul>
       </nav>
     </header>

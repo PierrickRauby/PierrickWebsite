@@ -1,305 +1,287 @@
 {
-    "info": {
-        "firstName": "Pierrick",
-        "lastName": "Rauby",
-        "titles": [
-            "Senior Application Engineer",
-            "Embedded Software Engineer",
-            "Runner"
-        ],
-        "contact": {
-            "email": "pierrick.rauby@gadz.com"
-        },
-        "socialMedia": [
-            {
-                "name": "github",
-                "url": "https://github.com/PierrickRauby",
-                "icon": "fa-brands fa-github"
-            },
-            {
-                "name": "linkedin",
-                "url": "https://www.linkedin.com/in/pierrickrauby",
-                "icon": "fa-brands fa-linkedin-in"
-            },
-            {
-                "name": "strava",
-                "url": "https://www.strava.com/athletes/32156369",
-                "icon": "fa-brands fa-strava"
-            },
-            {
-                "name": "instagram",
-                "url": "https://www.instagram.com/pierrickrby/",
-                "icon": "fab fa-instagram"
-            }
-        ]
+  "info": {
+    "firstName": "Pierrick",
+    "lastName": "Rauby",
+    "titles": [
+      "Senior Embedded Software Engineer",
+      "Ph.D Mechanical Engineering",
+      "M.S. Computer Science Engineering",
+      "BeagleBone Enthusiast",
+      "Senior Application Engineer"
+    ],
+    "contact": {
+      "email": "pierrick.rauby@gmail.com"
     },
-    "resume": {
-        "experience": [
-            {
-                "title": "Senior Application Engineer",
-                "compagny": "The Mathworks",
-                "compagnyLink": "https://mathworks.com",
-                "team": "Engineering Development Group",
-                "dateStart": "October 2022",
-                "dateEnd": "Present",
-                "keyResponsability": [
-                    "Within the Hardware team, working on the implementation of event-based Serial and TCP/IP communication between MATLAB and connected hardware. Assisting development teams in identifying software limitations, bugs, and potential improvements.",
-"Within the Engineering Development Group (EDG), delivering high-quality support to MathWorks customers"
-                ],
-                "skills": [
-                    "MATLAB",
-                    "C++",
-                    "Boost Libraries",
-                    "Simulink"
-                ],
-                "icon":"computer-icon"
-
-            },
-            {
-                "title": "Software Engineer",
-                "compagny": "FormLogic",
-                "compagnyLink": "https://formlogic.com",
-                "team": "Automation Engineering Team",
-                "dateStart": "March 2022",
-                "dateEnd": "September 2022",
-                "keyResponsability": [
-                    "Developed C embedded software for high frequency (65kHz) vibration data acquisition and streaming on Texas Instrument TM4C devices.",
-                    "Setup back-end server for data capture and processing.",
-                    "Created API for reconfiguring the firmware or reflashing the board.",
-                    "Managed contractor for custom PCB design."
-                ],
-                "skills": [
-                    "C",
-                    "Embedded",
-                    "TCP/IP",
-                    "UDP",
-                    "Rust",
-                    "Python",
-                    "React"
-                ],
-                "icon":"precision_manufacturing"
-            },
-            {
-                "title": "Graduate Research Assistant",
-                "compagny": "Georgia Institute of Technology",
-                "compagnyLink": "https://mathworks.com",
-                "team": "Sponsor: GeorgiaPacific",
-                "dateStart": "August 2018",
-                "dateEnd": "December 2021",
-                "keyResponsability": [
-                    "Developed a bearing defect detection software using rule-based and machine learning algorithms to process vibration signals in time and frequency domains.",
-                    "Tested and validated scalability to process around 4 Tb of daily data on AWS EC2.",
-                    "Supported Georgia-Pacific’s Data Engineering Team to deploy software in production on the company’s servers."
-                ],
-                "skills": [
-                    "Python",
-                    "AWS",
-                    "S3"
-                ],
-                "icon":"school-icon"
-            },
-            {
-                "title": "Graduate Teaching Assistant",
-                "compagny": "Georgia Institute of Technology",
-                "compagnyLink": "https://mathworks.com",
-                "team": "Class: ME622",
-                "dateStart": "August 2019",
-                "dateEnd": "December 2020",
-                "keyResponsability": [
-                    "Fall semester Teaching Assistant for Professor Colton’s ME6222 Manufacturing Processand Systems class.",
-                    "Held virtual and in-person office hours and lectures, prepared lecture materials, and graded homework assignments."
-                ],
-                "skills": [
-                    "Teaching",
-                    "Public Speaking",
-                    "Communication"
-                ],
-                "icon":"school-icon"
-            },
-            {
-                "title": "Graduate Research Assistant",
-                "compagny": "Georgia Institute of Technology",
-                "compagnyLink": "https://mathworks.com",
-                "team": "Sponsor: Thyssenkrupp Elevator",
-                "dateStart": "August 2017",
-                "dateEnd": "August 2018",
-                "keyResponsability": [
-                    "Validated capabilities of the Process Real-time Units, a fast micro-controller integrated into the Texas Instrument am335x chips.",
-                    "Released tutorials, Open Source documentation, and examples of embedded C codes for Professor Thomas Kurfess’ team.",
-                    "Integrated temperature, current, position, and vibration sensors and developed Embedded C Software for real-time condition monitoring of an elevator.",
-                    "Implemented RF transmission of processed data using Zigbee protocol between the control room and the elevator’s cage."
-                ],
-                "skills": [
-                    "C",
-                    "C++",
-                    "MQTT",
-                    "Zigbee",
-                    "Linux Kernel",
-                    "Real-time Processing"
-                ],
-                "icon":"school-icon"
-            },
-            {
-                "title": "R&D Intern",
-                "compagny": "Airbus Group",
-                "compagnyLink": "https://mathworks.com",
-                "team": "Design and Fabrication of an Additive Manufactured heat management System",
-                "dateStart": "Januaray 2017",
-                "dateEnd": "August 2017",
-                "keyResponsability": [
-                    "Awarded 'Best Idea of the Year', Innovation Awards 2017.",
-                    "Designed and prototyped a heat management system for an air-to-air missile using additive manufacturing.",
-                    "Analyzed the influence of the printing parameters over the final structure and solved computing limits on STL files using Python."
-                ],
-                "skills": [
-                    "Additive Manufacturing",
-                    "CAD",
-                    "Heat Transfert"
-                ],
-                "icon":"rocket_launch-icon"
-            },
-            {
-                "title": "Sailing instructor",
-                "compagny": "Ars en Ré Yacht Club",
-                "compagnyLink": "https://mathworks.com",
-                "team": "Seasonal Work",
-                "dateStart": "June 2013",
-                "dateEnd": "August 2017",
-                "keyResponsability": [
-                    "Supervised course in light sailing for groups of up to 15 people,ages 6 to 50 years old.",
-                    "Evaluated navigation risk to ensure safe practice."
-                ],
-                "skills": [
-                    "Leadership",
-                    "Team Work",
-                    "Risk Management"
-                ],
-                "icon": "sailing-icon"
-            }
-        ],
-        "education": [
-            {
-                "title": "Ph.D. Mechanical Engineering",
-                "compagny": "Georgia Institute of Technology",
-                "compagnyLink": "https://mathworks.com",
-                "GPA":"",
-                "date": "December 2021",
-                "key": [
-                    {"title":"Ph.D. Thesis",
-                "description":"Parallel wavelet transformation for edge and fog detection of bearing defects."},
-                {"description":"Developed and tested a new method for bearing defects identification using parallel computing at the edge to process bearing vibration data."},
-{"description":"Developed an open source I2C driver for Ti-Am5729 Process Real-time Units and interfaced with Linux Kernel for real-time data acquisition."},
-{"description":" Developed Federated Learning Simulation Library for centralized and federated learning comparison on the vibration data."},
-{"description":"Leveraged recent technology developments on embedded systems to enable real-time data processing at the sensor’s level."}
-                ],
-                "skills": [
-                    "Linux Embedded",
-                    "Real-time Application",
-                    "C",
-                    "C++",
-                    "I2C"
-                ]
-            },
-            {
-                "title": "M.S. Computer Science & Engineering",
-                "compagny": "Georgia Institute of Technology",
-                "compagnyLink": "https://mathworks.com",
-                "GPA":"3.78",
-                "date": "December 2021",
-                "key": [
-                    {"title":"Courses",
-                "description":"High Performance Computing, Numerical Linear Algebra, Data Visualization and Analytics, Machine Learning, Modeling and Simulation, Computational Data Analysis, Aerospace System Engineering, Aircraft Design."}
-                ],
-                "skills": [
-                    "Machine Learning",
-                    "High Perfomance Computing"
-                ]
-            },
-            {
-                "title": "M.S. Mechanical Engineering",
-                "compagny": "Georgia Institute of Technology",
-                "compagnyLink": "https://mathworks.com",
-                "GPA":"3.85",
-                "date": "August 2018",
-                "key": [
-                    {"title":"Master Thesis",
-                "description":"Developing a smart and low-cost device for machining vibration analysis"},
-                    {"title":"Courses",
-                "description":"Continuum Mechanics, Inelastic Deformation of Solids, Micromechanics of Materials, Manufacturing Process and Systems, Modelling and Simulation in Design, Automated Manufacturing Process Planning, Structural Vibration."}
-                ],
-                "skills": [
-                    "Linux Kernel Driver",
-                    "Real-time Processing"
-                ]
-            },
-            {
-                "title": "M.S. Engineering",
-                "compagny": "Arts Et Metiers ParisTech",
-                "compagnyLink": "https://mathworks.com",
-                "GPA":"4.0",
-                "date": "August 2018",
-                "key": [
-                    {"title":"Courses",
-                "description":"Science of Materials, Machining Processes, Welding, Casting, Forging, Heat Transfer, Computer Aided Design, Statistics, Production Techniques, Industrialization."}
-                ],
-                "skills": [
-                    "Public Speaking",
-                    "Communication",
-                    "CAD"
-                ]
-            }
-
-        ],
-        "volunteering": [
-            {"date":2017,
-        "description":"Member of the logistics team for Arts et Métiers’ ski club : organized a 1-week ski trip, 1,200 people, $720,000 budget."},
-            {"date":2016,
-        "description":"Chairman of the Sailing Association : raised $36,000 in sponsorship."},
-            {"date":2015,
-        "description":"Member of Arts et Métiers’ student board : Organized over 60 events with approximately 300 participants: sports championship, humanitarian action, and historic building restoration, budget $12,000."}
-
-        ],
-        "skills": [
-            {
-                "title":"Languages",
-                "description":["French (Native)","English (Highly Fluent)"]
-        },
-            {
-                "title":"Programming Languages",
-                "description":["C","C++","Python","MATLAB","JavaScript","Visual Basic","HTML","LaTeX","Vim","Bash"]
-        },
-            {
-                "title":"Framesworks and Technologies",
-                "description":["Pandas","NumPy","TensorFlow","Shell Script","D3.js","NodeJS","ReactJS","Amplify","Embedded Linux"]
-        },
-            {
-                "title":"Embedded Platforms",
-                "description":["Arduino","BeagleBone","RaspberryPi"]
-        },
-            {
-                "title":"Could Provider",
-                "description":["Azure","AWS","GCP"]
-        },
-            {
-                "title":"Version Control",
-                "description":["Git"]
-        },
-            {
-                "title":"Protocols",
-                "description":["UDP","TCP/IP","I2C","SPI","UART","MQTT","Zigbee"]
-        },
-            {
-                "title":"CAD Software",
-                "description":["Creo","SolidWorks","CATIAv5"]
-        },
-            {
-                "title":"Sports",
-                "description":["Sailling (top 10 European championship","Fencing (top 15  France)", "Running", "Biking"]
-        },
-            {
-                "title":"Travels",
-                "description":["Europe","Asia","North and South America"]
-       }
+    "socialMedia": [
+      {
+        "name": "github",
+        "url": "https://github.com/PierrickRauby",
+        "icon": "fa-brands fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/pierrickrauby",
+        "icon": "fa-brands fa-linkedin-in"
+      },
+      {
+        "name": "strava",
+        "url": "https://www.strava.com/athletes/32156369",
+        "icon": "fa-brands fa-strava"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/pierrickrby/",
+        "icon": "fab fa-instagram"
+      }
     ]
-    }
+  },
+  "resume": {
+    "experience": [
+      {
+        "title": "Senior Application Engineer",
+        "compagny": "The Mathworks",
+        "compagnyLink": "https://mathworks.com",
+        "team": "Engineering Development Group",
+        "dateStart": "October 2022",
+        "dateEnd": "Present",
+        "keyResponsability": [
+          "∠ HW/SW Coder: Enabled custom board bring-up for HDL Coder customers on Xilinx SoCs for the first time, overcoming prior technical limitations and allowing seamless deployment on previously unsupported custom hardware platforms by creating a kernel-agnostic image build and maintenance process.",
+          "∠ Instrument Control Toolbox: Improved TCP/IP and Serial Communication latency between MATLAB and connected hardware by 15% by implementing an event-based communication and leveraging Boost libraries for Linux and Mac platforms.",
+          "∠ Technical Support Toolbox: Maintained the Technical Support Toolbox, used daily by 300+ engineers worldwide. Ensured the quality of CI/CD processes, and improved automated pipeline reliability by enforcing componentization and removing flaky tests.",
+          "∠ Customer Relations: Led and coached a team of 25+ application engineers to deliver high-quality, day-to-day support to MathWorks customers.",
+          "∠ Recognized for: identifying the highest number of bugs globally during MathWorks’ internal bug bounty program, contributing to improved software reliability and security."
+        ],
+        "skills": ["MATLAB", "C++", "Boost Libraries", "Simulink"],
+        "icon": "computer-icon"
+      },
+      {
+        "title": "Software Engineer",
+        "compagny": "FormLogic",
+        "compagnyLink": "https://formlogic.com",
+        "team": "Automation Engineering Team",
+        "dateStart": "March 2022",
+        "dateEnd": "September 2022",
+        "keyResponsability": [
+          "Developed C-embedded software for high-frequency (65kHz) vibration data acquisition and streaming on Texas Instrument TM4C devices.",
+          "Set up a back-end server for data capture and processing.",
+          "Created an API for reconfiguring firmware or reflashing the board."
+        ],
+        "skills": ["C", "Embedded", "TCP/IP", "UDP", "Rust", "Python", "React"],
+        "icon": "precision_manufacturing"
+      },
+      {
+        "title": "Graduate Research Assistant",
+        "compagny": "Georgia Institute of Technology",
+        "compagnyLink": "https://research.gatech.edu/people/thomas-kurfess",
+        "team": "Professor Kurfess research group",
+        "dateStart": "August 2017",
+        "dateEnd": "December 2021",
+        "keyResponsability": [
+          "∠ Georgia Pacific August 2018 - December 2021: Designed and deployed an advanced bearing defect detection software that leverages rule-based and machine-learning algorithms to analyze vibration signals across both time and frequency domains. Successfully validated its scalability to process approximately 4TB of daily data on AWS EC2, achieving real-time condition monitoring at half the cost of the previous system.",
+          "∠ Thyssenkrupp Elevator January 2018 - October 2018: Integrated temperature, current, position, and vibration sensors, and developed embedded C software to enable real-time condition monitoring for elevators. Implemented RF transmission of processed data via the Zigbee protocol, ensuring seamless communication between the control room and the elevator’s cage.",
+          "∠ Open Source Contributions August 2017 - January 2018: Validated the capabilities of the Process Real-time Units, two 200MHz co-processors integrated into Texas Instrument AM335x chips. Published open-source tutorials, documentation, and embedded C code examples, enabling more users to adopt the PRUs for their data acquisition projects."
+        ],
+        "skills": ["Python", "AWS", "S3"],
+        "icon": "school-icon"
+      },
+      {
+        "title": "Graduate Teaching Assistant",
+        "compagny": "Georgia Institute of Technology",
+        "compagnyLink": "https://mathworks.com",
+        "team": "Class: ME622",
+        "dateStart": "August 2019",
+        "dateEnd": "December 2020",
+        "keyResponsability": [
+            "Prepared and delivered lectures, held office hours, and graded tests and homework for the class ME6222 : Manufacturing Processes and Systems."
+        ],
+        "skills": ["Teaching", "Public Speaking", "Communication"],
+        "icon": "school-icon"
+      },
+      {
+        "title": "R&D Intern",
+        "compagny": "Airbus Group",
+        "compagnyLink": "https://mathworks.com",
+        "team": "Design and Fabrication of an Additive Manufactured heat management System",
+        "dateStart": "Januaray 2017",
+        "dateEnd": "August 2017",
+        "keyResponsability": [
+          "∠ Design and Fabrication of Additive Manufactured Heat Management System.",
+          "∠ Awarded “Best Idea of the Year” at the Innovation Awards 2017 for designing and prototyping a heat management system for an air-to-air missile using additive manufacturing.",
+          "∠ Analyzed the influence of printing parameters on the final structure and solved computing limits on STL files using Python."
+        ],
+        "skills": ["Additive Manufacturing", "CAD", "Heat Transfert"],
+        "icon": "rocket_launch-icon"
+      },
+      {
+        "title": "Sailing instructor",
+        "compagny": "Ars en Ré Yacht Club",
+        "compagnyLink": "https://mathworks.com",
+        "team": "Seasonal Work",
+        "dateStart": "June 2013",
+        "dateEnd": "August 2017",
+        "keyResponsability": [
+          "Supervised course in light sailing for groups of up to 15 people,ages 6 to 50 years old.",
+          "Evaluated navigation risk to ensure safe practice."
+        ],
+        "skills": ["Leadership", "Team Work", "Risk Management"],
+        "icon": "sailing-icon"
+      }
+    ],
+    "education": [
+      {
+        "title": "Ph.D. Mechanical Engineering",
+        "compagny": "Georgia Institute of Technology",
+        "compagnyLink": "https://mathworks.com",
+        "GPA": "",
+        "date": "December 2021",
+        "key": [
+          {
+            "title": "Ph.D. Thesis",
+            "description": "Parallel wavelet transformation for edge and fog detection of bearing defects."
+          },
+          {
+            "description": "Developed and tested a new method for bearing defects identification using parallel computing at the edge to process bearing vibration data."
+          },
+          {
+            "description": "Developed an open source I2C driver for Ti-Am5729 Process Real-time Units and interfaced with Linux Kernel for real-time data acquisition."
+          },
+          {
+            "description": " Developed Federated Learning Simulation Library for centralized and federated learning comparison on the vibration data."
+          },
+          {
+            "description": "Leveraged recent technology developments on embedded systems to enable real-time data processing at the sensor’s level."
+          }
+        ],
+        "skills": ["Linux Embedded", "Real-time Application", "C", "C++", "I2C"]
+      },
+      {
+        "title": "M.S. Computer Science & Engineering",
+        "compagny": "Georgia Institute of Technology",
+        "compagnyLink": "https://mathworks.com",
+        "GPA": "3.78",
+        "date": "December 2021",
+        "key": [
+          {
+            "title": "Courses",
+            "description": "High Performance Computing, Numerical Linear Algebra, Data Visualization and Analytics, Machine Learning, Modeling and Simulation, Computational Data Analysis, Aerospace System Engineering, Aircraft Design."
+          }
+        ],
+        "skills": ["Machine Learning", "High Perfomance Computing"]
+      },
+      {
+        "title": "M.S. Mechanical Engineering",
+        "compagny": "Georgia Institute of Technology",
+        "compagnyLink": "https://mathworks.com",
+        "GPA": "3.85",
+        "date": "August 2018",
+        "key": [
+          {
+            "title": "Master Thesis",
+            "description": "Developing a smart and low-cost device for machining vibration analysis"
+          },
+          {
+            "title": "Courses",
+            "description": "Continuum Mechanics, Inelastic Deformation of Solids, Micromechanics of Materials, Manufacturing Process and Systems, Modelling and Simulation in Design, Automated Manufacturing Process Planning, Structural Vibration."
+          }
+        ],
+        "skills": ["Linux Kernel Driver", "Real-time Processing"]
+      },
+      {
+        "title": "M.S. Engineering",
+        "compagny": "Arts Et Metiers ParisTech",
+        "compagnyLink": "https://mathworks.com",
+        "GPA": "4.0",
+        "date": "August 2018",
+        "key": [
+          {
+            "title": "Courses",
+            "description": "Science of Materials, Machining Processes, Welding, Casting, Forging, Heat Transfer, Computer Aided Design, Statistics, Production Techniques, Industrialization."
+          }
+        ],
+        "skills": ["Public Speaking", "Communication", "CAD"]
+      }
+    ],
+    "volunteering": [
+      {
+        "date": 2017,
+        "description": "Member of the logistics team for Arts et Métiers’ ski club : organized a 1-week ski trip, 1,200 people, $720,000 budget."
+      },
+      {
+        "date": 2016,
+        "description": "Chairman of the Sailing Association : raised $36,000 in sponsorship."
+      },
+      {
+        "date": 2015,
+        "description": "Member of Arts et Métiers’ student board : Organized over 60 events with approximately 300 participants: sports championship, humanitarian action, and historic building restoration, budget $12,000."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Languages",
+        "description": ["French (Native)", "English (Highly Fluent)"]
+      },
+      {
+        "title": "Programming Languages",
+        "description": [
+          "C",
+          "C++",
+          "Python",
+          "MATLAB",
+          "JavaScript",
+          "Visual Basic",
+          "HTML",
+          "LaTeX",
+          "Vim",
+          "Bash"
+        ]
+      },
+      {
+        "title": "Framesworks and Technologies",
+        "description": [
+          "Pandas",
+          "NumPy",
+          "TensorFlow",
+          "Shell Script",
+          "D3.js",
+          "NodeJS",
+          "ReactJS",
+          "Amplify",
+          "Embedded Linux"
+        ]
+      },
+      {
+        "title": "Embedded Platforms",
+        "description": ["Arduino", "BeagleBone", "RaspberryPi"]
+      },
+      {
+        "title": "Could Provider",
+        "description": ["Azure", "AWS", "GCP"]
+      },
+      {
+        "title": "Version Control",
+        "description": ["Git"]
+      },
+      {
+        "title": "Protocols",
+        "description": ["UDP", "TCP/IP", "I2C", "SPI", "UART", "MQTT", "Zigbee"]
+      },
+      {
+        "title": "CAD Software",
+        "description": ["Creo", "SolidWorks", "CATIAv5"]
+      },
+      {
+        "title": "Sports",
+        "description": [
+          "Sailling (top 10 European championship",
+          "Fencing (top 15  France)",
+          "Running",
+          "Biking"
+        ]
+      },
+      {
+        "title": "Travels",
+        "description": ["Europe", "Asia", "North and South America"]
+      }
+    ]
+  }
 }
