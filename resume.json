@@ -129,8 +129,7 @@
         "GPA": "",
         "date": "December 2021",
         "keyResponsability": [
-          "Ph.D Thesis:",
-          "∠ Parallel wavelet transformation for edge and fog detection of bearing defects.",
+          "Ph.D Thesis: \"Smart Parallel Wavelet Transformation for Edge and Fog Detection of Bearing Defects.\"",
           "∠ Developed and tested a new method for bearing defects identification using parallel computing at the edge to process bearing vibration data.",
           "∠ Developed an open source I2C driver for Ti-Am5729 Process Real-time Units and interfaced with Linux Kernel for real-time data acquisition.",
           "∠ Developed Federated Learning Simulation Library for centralized and federated learning comparison on the vibration data.",
@@ -146,8 +145,7 @@
         "GPA": "3.78",
         "date": "December 2021",
         "keyResponsability": [
-            "Courses:",
-            "∠ High Performance Computing, Numerical Linear Algebra, Data Visualization and Analytics, Machine Learning, Modeling and Simulation, Computational Data Analysis, Aerospace System Engineering, Aircraft Design."
+            "Courses: High Performance Computing, Numerical Linear Algebra, Data Visualization and Analytics, Machine Learning, Modeling and Simulation, Computational Data Analysis, Aerospace System Engineering, Aircraft Design."
         ],
         "skills": ["Machine Learning", "High Perfomance Computing"],
         "icon": "computer-icon"
@@ -159,7 +157,7 @@
         "GPA": "3.85",
         "date": "August 2018",
         "keyResponsability": [
-            "Master Thesis: Developing a smart and low-cost device for machining vibration analysis",
+            "Master Thesis: \"Developing a smart and low-cost device for machining vibration analysis\"",
             "Courses: Continuum Mechanics, Inelastic Deformation of Solids, Micromechanics of Materials, Manufacturing Process and Systems, Modelling and Simulation in Design, Automated Manufacturing Process Planning, Structural Vibration."
         ],
         "skills": ["Linux Kernel Driver", "Real-time Processing"],
