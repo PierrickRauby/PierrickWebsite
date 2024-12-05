@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import Intro from './Intro';
-// import TimelineExperiences from './TimelineExperiences';
-// // import TimelineEducation from './TimelineEducation';
 import Projects from './Projects';
 import ExperienceAndEducation from './ExperienceAndEducation';
 import Footer from './Footer';
@@ -20,9 +18,6 @@ const Home = (props) => {
 
   return (
     <div className="vstack gap-3">
-      {/* Sticky Navbar with carousel navigation handler */}
-      {/* <StickyNavbar onCarouselNavigate={handleCarouselNavigate} /> */}
-
       {/* Intro Section */}
       <Intro info={props.resumeData.info} className="vertical-item" />
 

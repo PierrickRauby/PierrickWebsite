@@ -1,9 +1,7 @@
 import { useState } from 'react';
-import TimelineExperiences from './TimelineExperiences';
-// import TimelineEducation from './TimelineEducation';
+import Timeline from './Timeline';
 import Switch from '@mui/material/Switch';
 import { styled } from '@mui/material/styles';
-// import ComputerIcon from '@mui/icons-material/Computer';
 import WorkIcon from '@mui/icons-material/Work';
 import SchoolIcon from '@mui/icons-material/School';
 
@@ -76,9 +74,9 @@ function ExperienceAndEducation(props) {
       </div>
       {/* Conditionally render the timeline based on the switch state */}
       {isEducation ? (
-        <TimelineExperiences data={props.data.resume.education} />
+        <Timeline data={props.data.resume.education} />
       ) : (
-        <TimelineExperiences data={props.data.resume.experience} />
+        <Timeline data={props.data.resume.experience} />
       )}
     </div>
   );

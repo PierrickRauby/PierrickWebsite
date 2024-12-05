@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import CircularProgress from '@mui/material/CircularProgress';
 import Home from './components/Home';
-// import Running from './components/Running';
 import './styles.css'; // Import the styles.css file
 
 class App extends Component {

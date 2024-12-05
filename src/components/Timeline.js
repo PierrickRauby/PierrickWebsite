@@ -7,7 +7,7 @@ import { Icon, Chip, List } from '@mui/material';
   rel="stylesheet"
   href="https://fonts.googleapis.com/icon?family=Material+Icons"
 />
-function TimelineExperiences(props) {
+function Timeline(props) {
   return (
 
     <div className='TimelineSection'>
@@ -43,4 +43,4 @@ function TimelineExperiences(props) {
   );
 }
 
-export default TimelineExperiences;
+export default Timeline;
