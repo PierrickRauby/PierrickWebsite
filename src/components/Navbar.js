@@ -58,7 +58,8 @@ const StickyNavbar = ({ onCarouselNavigate }) => {
               to="#ExperiencesAndEducation"
               scroll={(el) => scrollWithOffset(el)}
             >
-              Experiences & Education
+              {/* Experiences & Education */}
+              Journey
             </HashLink>
           </li>
           <li>
