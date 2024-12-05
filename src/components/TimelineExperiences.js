@@ -11,27 +11,27 @@ function TimelineExperiences(props) {
   return (
 
     <div className='TimelineSection'>
-      <h1 id="Experiences"> Experiences</h1>
+      {/* <h1 id="Experiences"> Experiences</h1> */}
       <VerticalTimeline id='VerticalTimeline'>
-        {props.data.map((experience) => (
+        {props.data.map((element) => (
           <VerticalTimelineElement
           key={uuidv4()}
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#7395AE', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #7395AE' }}
-            date={experience.dateStart + " - " + experience.dateEnd}
+            date={element.date}
             iconStyle={{ background: '#7395AE', color: '#fff' }}
-            icon={<Icon>{experience.icon}</Icon>}
+            icon={<Icon>{element.icon}</Icon>}
           >
-            <h3 className="vertical-timeline-element-title">{experience.title}</h3>
-            <h5 className="vertical-timeline-element-subtitle">{experience.compagny}</h5>
-            {experience.keyResponsability.map((responsability) => (
+            <h3 className="vertical-timeline-element-title">{element.title}</h3>
+            <h5 className="vertical-timeline-element-subtitle">{element.compagny}</h5>
+            {element.keyResponsability.map((responsability) => (
               <List key={uuidv4()}>{responsability}</List>
             ))}
             <div>
 
               <div>
-                {experience.skills.map((skill) => (
+                {element.skills.map((skill) => (
                   <Chip key={uuidv4()} className="chip-skill" label={skill} />
                 ))}
               </div>

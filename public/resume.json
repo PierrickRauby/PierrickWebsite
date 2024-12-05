@@ -42,8 +42,7 @@
         "compagny": "The Mathworks",
         "compagnyLink": "https://mathworks.com",
         "team": "Engineering Development Group",
-        "dateStart": "October 2022",
-        "dateEnd": "Present",
+        "date": "October 2022 - Present",
         "keyResponsability": [
           "∠ HW/SW Coder: Enabled custom board bring-up for HDL Coder customers on Xilinx SoCs for the first time, overcoming prior technical limitations and allowing seamless deployment on previously unsupported custom hardware platforms by creating a kernel-agnostic image build and maintenance process.",
           "∠ Instrument Control Toolbox: Improved TCP/IP and Serial Communication latency between MATLAB and connected hardware by 15% by implementing an event-based communication and leveraging Boost libraries for Linux and Mac platforms.",
@@ -59,8 +58,7 @@
         "compagny": "FormLogic",
         "compagnyLink": "https://formlogic.com",
         "team": "Automation Engineering Team",
-        "dateStart": "March 2022",
-        "dateEnd": "September 2022",
+        "date": "March 2022 - September 2022",
         "keyResponsability": [
           "Developed C-embedded software for high-frequency (65kHz) vibration data acquisition and streaming on Texas Instrument TM4C devices.",
           "Set up a back-end server for data capture and processing.",
@@ -74,8 +72,7 @@
         "compagny": "Georgia Institute of Technology",
         "compagnyLink": "https://research.gatech.edu/people/thomas-kurfess",
         "team": "Professor Kurfess research group",
-        "dateStart": "August 2017",
-        "dateEnd": "December 2021",
+        "date": "August 2017 - December 2021",
         "keyResponsability": [
           "∠ Georgia Pacific August 2018 - December 2021: Designed and deployed an advanced bearing defect detection software that leverages rule-based and machine-learning algorithms to analyze vibration signals across both time and frequency domains. Successfully validated its scalability to process approximately 4TB of daily data on AWS EC2, achieving real-time condition monitoring at half the cost of the previous system.",
           "∠ Thyssenkrupp Elevator January 2018 - October 2018: Integrated temperature, current, position, and vibration sensors, and developed embedded C software to enable real-time condition monitoring for elevators. Implemented RF transmission of processed data via the Zigbee protocol, ensuring seamless communication between the control room and the elevator’s cage.",
@@ -89,8 +86,7 @@
         "compagny": "Georgia Institute of Technology",
         "compagnyLink": "https://mathworks.com",
         "team": "Class: ME622",
-        "dateStart": "August 2019",
-        "dateEnd": "December 2020",
+        "date": "August 2019 - December 2020",
         "keyResponsability": [
             "Prepared and delivered lectures, held office hours, and graded tests and homework for the class ME6222 : Manufacturing Processes and Systems."
         ],
@@ -102,8 +98,7 @@
         "compagny": "Airbus Group",
         "compagnyLink": "https://mathworks.com",
         "team": "Design and Fabrication of an Additive Manufactured heat management System",
-        "dateStart": "Januaray 2017",
-        "dateEnd": "August 2017",
+        "date": "January - August 2017",
         "keyResponsability": [
           "∠ Design and Fabrication of Additive Manufactured Heat Management System.",
           "∠ Awarded “Best Idea of the Year” at the Innovation Awards 2017 for designing and prototyping a heat management system for an air-to-air missile using additive manufacturing.",
@@ -117,8 +112,7 @@
         "compagny": "Ars en Ré Yacht Club",
         "compagnyLink": "https://mathworks.com",
         "team": "Seasonal Work",
-        "dateStart": "June 2013",
-        "dateEnd": "August 2017",
+        "date": "June 2013 - August 2017",
         "keyResponsability": [
           "Supervised course in light sailing for groups of up to 15 people,ages 6 to 50 years old.",
           "Evaluated navigation risk to ensure safe practice."

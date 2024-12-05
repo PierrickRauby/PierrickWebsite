@@ -44,7 +44,8 @@ class App extends Component {
               <link
                 rel="stylesheet"
                 href="https://fonts.googleapis.com/icon?family=Material+Icons"
-              /><Navbar />
+              />
+              <Navbar />
               <Routes>
                 <Route path="/" element={<Home resumeData={resumeData} />} />
               </Routes>

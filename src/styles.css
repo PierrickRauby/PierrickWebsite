@@ -49,14 +49,7 @@ header {
 }
 /* Intro */
 
-/* .intro-content{
-text-align: center;
-  display: flex;
-  justify-content: center;
-} */
-
 #IntroBackground {
-  /* background-color: #EAE7DC; */
   height: 80vh;
   margin-bottom: 20px; 
   text-align: center;
@@ -96,6 +89,11 @@ text-align: center;
 /* Timeline */
 #Education{
   text-align: center;
+}
+/* Draft */
+#ExperiencesAndEducation h1{
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 #VerticalTimeline{
