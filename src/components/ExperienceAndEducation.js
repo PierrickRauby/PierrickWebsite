@@ -62,7 +62,7 @@ function ExperienceAndEducation(props) {
   }));
 
   return (
-    <div id="ExperiencesAndEducation">
+    <div id="Journey">
       <h1 >Experiences & Education</h1>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '10px', margin: '20px 0' }}>
         <CustomSwitch

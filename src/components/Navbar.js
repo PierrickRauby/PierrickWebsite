@@ -49,13 +49,13 @@ const StickyNavbar = ({ onCarouselNavigate }) => {
       <nav>
         <ul>
           <li>
-            <HashLink to="#IntroBackground" scroll={(el) => scrollWithOffset(el)}>
+            <HashLink to="#Home" scroll={(el) => scrollWithOffset(el)}>
               Home
             </HashLink>
           </li>
           <li>
             <HashLink
-              to="#ExperiencesAndEducation"
+              to="#Journey"
               scroll={(el) => scrollWithOffset(el)}
             >
               Journey

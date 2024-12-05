@@ -49,12 +49,12 @@ header {
 }
 /* Intro */
 
-#IntroBackground {
+#Home {
   height: 80vh;
   margin-bottom: 20px; 
   text-align: center;
 }
-#IntroBackground .intro-content {
+#Home .intro-content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,7 +91,7 @@ header {
   text-align: center;
 }
 /* Draft */
-#ExperiencesAndEducation h1{
+#Journey h1{
   text-align: center;
   margin-bottom: 2rem;
 }

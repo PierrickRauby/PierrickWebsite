@@ -16,7 +16,6 @@ const Home = (props) => {
       {/* Projects Section */}
       <Projects />
 
-
       {/* Footer Section */}
       <Footer data={props.resumeData.info} />
     </div>

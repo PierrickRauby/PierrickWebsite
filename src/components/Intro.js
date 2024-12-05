@@ -17,7 +17,7 @@ function Intro(props) {
   }, (props, prevProp) => true);
 
   return (
-    <div id="IntroBackground">
+    <div id="Home">
       <div className="intro-content display-table">
         <div className="table-cell">
           <div id="ParticleContainer" className="container">
