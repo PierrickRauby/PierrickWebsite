@@ -1,28 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Intro from './Intro';
 import Projects from './Projects';
 import ExperienceAndEducation from './ExperienceAndEducation';
 import Footer from './Footer';
-import StickyNavbar from './Navbar';
 
 const Home = (props) => {
-  // State to manage the current carousel index
-  const [carouselIndex, setCarouselIndex] = useState(0);
-
-  // Handler to update the carousel index when navigating from the navbar
-  const handleCarouselNavigate = (index) => {
-    if (index !== null && index !== undefined) {
-      setCarouselIndex(index);
-    }
-  };
-
   return (
     <div className="vstack gap-3">
       {/* Intro Section */}
       <Intro info={props.resumeData.info} className="vertical-item" />
 
       {/* Experience & Education Section Section */}
-      <ExperienceAndEducation onIndexChange={setCarouselIndex} data={props.resumeData} />
+      <ExperienceAndEducation  data={props.resumeData} />
       
       {/* Projects Section */}
       <Projects />
