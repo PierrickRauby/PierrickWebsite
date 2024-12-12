@@ -8,7 +8,7 @@ function Intro(props) {
     return <ReactTyped
       className="intro-text-slider"
       strings={props.titles}
-      typeSpeed={80}
+      typeSpeed={100}
       backDelay={1100}
       backSpeed={30}
       loop
@@ -23,7 +23,7 @@ function Intro(props) {
           <div id="ParticleContainer" className="container">
             <ParticlesBackground/> 
             <div id="ParticleText">
-            <h1 className="intro-title mb-4">Hello, I am {props.info.firstName}</h1>
+            <h1 className="intro-title mb-4">Hello, I am {props.info.firstName} {props.info.lastName}</h1>
             <p className="intro-subtitle">
               <span className="text-slider-items"></span>
               <strong className="text-slider">
