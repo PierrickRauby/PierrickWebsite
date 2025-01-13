@@ -31,7 +31,7 @@ export default function BasicCard(props) {
             <Typography level="body3">{props.Caption}</Typography>
           </div>
         </CardContent>
-        <CardActions>
+        {/* <CardActions>
           <Button
             variant="outlined"
             size="sm"
@@ -41,7 +41,7 @@ export default function BasicCard(props) {
           >
             more
           </Button>
-        </CardActions>
+        </CardActions> */}
       </Card>
         );
     }
