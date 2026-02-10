@@ -38,11 +38,11 @@
     "experience": [
       {
         "title": "Senior Software Engineer",
-        "compagny": "The Mathworks",
-        "compagnyLink": "https://mathworks.com",
+        "company": "The Mathworks",
+        "companyLink": "https://mathworks.com",
         "team": "Engineering Development Group",
         "date": "October 2022 - Present",
-        "keyResponsability": [
+        "keyResponsibility": [
           "∠ HW/SW Coder: Enabled custom board bring-up for HDL Coder customers on Xilinx SoCs for the first time, overcoming prior technical limitations and allowing seamless deployment on previously unsupported custom hardware platforms by creating a kernel-agnostic image build and maintenance process.",
           "∠ Instrument Control Toolbox: Improved TCP/IP and Serial Communication latency between MATLAB and connected hardware by 15% by implementing an event-based communication and leveraging Boost libraries for Linux and Mac platforms.",
           "∠ Technical Support Toolbox: Maintained the Technical Support Toolbox, used daily by 300+ engineers worldwide. Ensured the quality of CI/CD processes, and improved automated pipeline reliability by enforcing componentization and removing flaky tests.",
@@ -54,11 +54,11 @@
       },
       {
         "title": "Software Engineer",
-        "compagny": "FormLogic",
-        "compagnyLink": "https://formlogic.com",
+        "company": "FormLogic",
+        "companyLink": "https://formlogic.com",
         "team": "Automation Engineering Team",
         "date": "March 2022 - September 2022",
-        "keyResponsability": [
+        "keyResponsibility": [
           "Developed C-embedded software for high-frequency (65kHz) vibration data acquisition and streaming on Texas Instrument TM4C devices.",
           "Set up a back-end server for data capture and processing.",
           "Created an API for reconfiguring firmware or reflashing the board."
@@ -68,11 +68,11 @@
       },
       {
         "title": "Graduate Research Assistant",
-        "compagny": "Georgia Institute of Technology",
-        "compagnyLink": "https://research.gatech.edu/people/thomas-kurfess",
+        "company": "Georgia Institute of Technology",
+        "companyLink": "https://research.gatech.edu/people/thomas-kurfess",
         "team": "Professor Kurfess research group",
         "date": "August 2017 - December 2021",
-        "keyResponsability": [
+        "keyResponsibility": [
           "∠ Georgia Pacific August 2018 - December 2021: Designed and deployed an advanced bearing defect detection software that leverages rule-based and machine-learning algorithms to analyze vibration signals across both time and frequency domains. Successfully validated its scalability to process approximately 4TB of daily data on AWS EC2, achieving real-time condition monitoring at half the cost of the previous system.",
           "∠ Thyssenkrupp Elevator January 2018 - October 2018: Integrated temperature, current, position, and vibration sensors, and developed embedded C software to enable real-time condition monitoring for elevators. Implemented RF transmission of processed data via the Zigbee protocol, ensuring seamless communication between the control room and the elevator’s cage.",
           "∠ Open Source Contributions August 2017 - January 2018: Validated the capabilities of the Process Real-time Units, two 200MHz co-processors integrated into Texas Instrument AM335x chips. Published open-source tutorials, documentation, and embedded C code examples, enabling more users to adopt the PRUs for their data acquisition projects."
@@ -82,11 +82,11 @@
       },
       {
         "title": "Graduate Teaching Assistant",
-        "compagny": "Georgia Institute of Technology",
-        "compagnyLink": "https://mathworks.com",
+        "company": "Georgia Institute of Technology",
+        "companyLink": "https://mathworks.com",
         "team": "Class: ME622",
         "date": "August 2019 - December 2020",
-        "keyResponsability": [
+        "keyResponsibility": [
             "Prepared and delivered lectures, held office hours, and graded tests and homework for the class ME6222 : Manufacturing Processes and Systems."
         ],
         "skills": ["Teaching", "Public Speaking", "Communication"],
@@ -94,25 +94,25 @@
       },
       {
         "title": "R&D Intern",
-        "compagny": "Airbus Group",
-        "compagnyLink": "https://mathworks.com",
+        "company": "Airbus Group",
+        "companyLink": "https://mathworks.com",
         "team": "Design and Fabrication of an Additive Manufactured heat management System",
         "date": "January - August 2017",
-        "keyResponsability": [
+        "keyResponsibility": [
           "∠ Design and Fabrication of Additive Manufactured Heat Management System.",
           "∠ Awarded “Best Idea of the Year” at the Innovation Awards 2017 for designing and prototyping a heat management system for an air-to-air missile using additive manufacturing.",
           "∠ Analyzed the influence of printing parameters on the final structure and solved computing limits on STL files using Python."
         ],
-        "skills": ["Additive Manufacturing", "CAD", "Heat Transfert"],
+        "skills": ["Additive Manufacturing", "CAD", "Heat Transfer"],
         "icon": "rocket_launch-icon"
       },
       {
         "title": "Sailing instructor",
-        "compagny": "Ars en Ré Yacht Club",
-        "compagnyLink": "https://mathworks.com",
+        "company": "Ars en Ré Yacht Club",
+        "companyLink": "https://mathworks.com",
         "team": "Seasonal Work",
         "date": "June 2013 - August 2017",
-        "keyResponsability": [
+        "keyResponsibility": [
           "Supervised course in light sailing for groups of up to 15 people,ages 6 to 50 years old.",
           "Evaluated navigation risk to ensure safe practice."
         ],
@@ -123,11 +123,11 @@
     "education": [
       {
         "title": "Ph.D. Mechanical Engineering",
-        "compagny": "Georgia Institute of Technology",
-        "compagnyLink": "https://mathworks.com",
+        "company": "Georgia Institute of Technology",
+        "companyLink": "https://mathworks.com",
         "GPA": "",
         "date": "December 2021",
-        "keyResponsability": [
+        "keyResponsibility": [
           "Ph.D Thesis: \"Smart Parallel Wavelet Transformation for Edge and Fog Detection of Bearing Defects.\"",
           "∠ Developed and tested a new method for bearing defects identification using parallel computing at the edge to process bearing vibration data.",
           "∠ Developed an open source I2C driver for Ti-Am5729 Process Real-time Units and interfaced with Linux Kernel for real-time data acquisition.",
@@ -139,23 +139,23 @@
       },
       {
         "title": "M.S. Computer Science & Engineering",
-        "compagny": "Georgia Institute of Technology",
-        "compagnyLink": "https://mathworks.com",
+        "company": "Georgia Institute of Technology",
+        "companyLink": "https://mathworks.com",
         "GPA": "3.78",
         "date": "December 2021",
-        "keyResponsability": [
+        "keyResponsibility": [
             "Courses: High Performance Computing, Numerical Linear Algebra, Data Visualization and Analytics, Machine Learning, Modeling and Simulation, Computational Data Analysis, Aerospace System Engineering, Aircraft Design."
         ],
-        "skills": ["Machine Learning", "High Perfomance Computing"],
+        "skills": ["Machine Learning", "High Performance Computing"],
         "icon": "computer-icon"
       },
       {
         "title": "M.S. Mechanical Engineering",
-        "compagny": "Georgia Institute of Technology",
-        "compagnyLink": "https://mathworks.com",
+        "company": "Georgia Institute of Technology",
+        "companyLink": "https://mathworks.com",
         "GPA": "3.85",
         "date": "August 2018",
-        "keyResponsability": [
+        "keyResponsibility": [
             "Master Thesis: \"Developing a smart and low-cost device for machining vibration analysis\"",
             "Courses: Continuum Mechanics, Inelastic Deformation of Solids, Micromechanics of Materials, Manufacturing Process and Systems, Modelling and Simulation in Design, Automated Manufacturing Process Planning, Structural Vibration."
         ],
@@ -164,11 +164,11 @@
       },
       {
         "title": "M.S. Engineering",
-        "compagny": "Arts Et Metiers ParisTech",
-        "compagnyLink": "https://mathworks.com",
+        "company": "Arts Et Metiers ParisTech",
+        "companyLink": "https://mathworks.com",
         "GPA": "4.0",
         "date": "August 2018",
-        "keyResponsability": [
+        "keyResponsibility": [
             "Courses: Science of Materials, Machining Processes, Welding, Casting, Forging, Heat Transfer, Computer Aided Design, Statistics, Production Techniques, Industrialization."
         ],
         "skills": ["Public Speaking", "Communication", "CAD"],
@@ -210,7 +210,7 @@
         ]
       },
       {
-        "title": "Framesworks and Technologies",
+        "title": "Frameworks and Technologies",
         "description": [
           "Pandas",
           "NumPy",
@@ -228,7 +228,7 @@
         "description": ["Arduino", "BeagleBone", "RaspberryPi"]
       },
       {
-        "title": "Could Provider",
+        "title": "Cloud Provider",
         "description": ["Azure", "AWS", "GCP"]
       },
       {
@@ -246,8 +246,8 @@
       {
         "title": "Sports",
         "description": [
-          "Sailling (top 10 European championship",
-          "Fencing (top 15  France)",
+          "Sailing (top 10 European championship)",
+          "Fencing (top 15 France)",
           "Running",
           "Biking"
         ]

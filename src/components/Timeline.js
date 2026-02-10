@@ -24,9 +24,9 @@ function Timeline(props) {
             icon={<Icon>{element.icon}</Icon>}
           >
             <h3 className="vertical-timeline-element-title">{element.title}</h3>
-            <h5 className="vertical-timeline-element-subtitle">{element.compagny}</h5>
-            {element.keyResponsability.map((responsability) => (
-              <List key={uuidv4()}>{responsability}</List>
+            <h5 className="vertical-timeline-element-subtitle">{element.company}</h5>
+            {element.keyResponsibility.map((responsibility) => (
+              <List key={uuidv4()}>{responsibility}</List>
             ))}
             <div>
 
