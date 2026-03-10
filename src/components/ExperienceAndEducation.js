@@ -7,7 +7,7 @@ import SchoolIcon from '@mui/icons-material/School';
 
 function ExperienceAndEducation(props) {
   // State to track the switch status
-  const [isEducation, setIsEducation] = useState(true);
+  const [isEducation, setIsEducation] = useState(false);
 
   // Handle switch change
   const handleChange = (event) => {
