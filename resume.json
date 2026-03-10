@@ -3,7 +3,7 @@
     "firstName": "Pierrick",
     "lastName": "Rauby",
     "titles": [
-      "Senior Embedded Software Engineer",
+      "Senior Software Engineer - Cameras",
       "Ph.D Mechanical Engineering",
       "M.S. Computer Science Engineering",
       "BeagleBone Enthusiast"
@@ -37,11 +37,26 @@
   "resume": {
     "experience": [
       {
+        "title": "Senior Software Engineer - Cameras",
+        "compagny": "Metalenz",
+        "compagnyLink": "https://metalenz.com",
+        "team": "Camera Software Team",
+        "date": "September 2025 - Present",
+        "keyResponsability": [
+          "∠ Camera Pipeline Development: Designed and implemented end-to-end image processing pipelines for a novel sensor technology, spanning Camera HAL firmware, ISP configuration, and Android application integration.",
+          "∠ Multi-Frame Processing: Debugged and resolved critical issues in multi-frame super resolution and HDR pipelines, including buffer allocation, format negotiation, and memory management across the camera stack.",
+          "∠ Android Camera Integration: Developed C++ and Kotlin components for camera frame acquisition and processing using Android NDK, bridging native camera firmware with application-layer algorithms.",
+          "∠ System Debugging: Diagnosed and fixed complex cross-layer issues involving ISP format propagation, buffer lifecycle management, and pipeline state machines through systematic root-cause analysis."
+        ],
+        "skills": ["C++", "Kotlin", "Android NDK", "Camera HAL", "Image Processing"],
+        "icon": "camera-icon"
+      },
+      {
         "title": "Senior Software Engineer",
         "compagny": "The Mathworks",
         "compagnyLink": "https://mathworks.com",
         "team": "Engineering Development Group",
-        "date": "October 2022 - Present",
+        "date": "October 2022 - September 2025",
         "keyResponsability": [
           "∠ HW/SW Coder: Enabled custom board bring-up for HDL Coder customers on Xilinx SoCs for the first time, overcoming prior technical limitations and allowing seamless deployment on previously unsupported custom hardware platforms by creating a kernel-agnostic image build and maintenance process.",
           "∠ Instrument Control Toolbox: Improved TCP/IP and Serial Communication latency between MATLAB and connected hardware by 15% by implementing an event-based communication and leveraging Boost libraries for Linux and Mac platforms.",
@@ -199,6 +214,7 @@
         "description": [
           "C",
           "C++",
+          "Kotlin",
           "Python",
           "MATLAB",
           "JavaScript",
@@ -220,12 +236,14 @@
           "NodeJS",
           "ReactJS",
           "Amplify",
-          "Embedded Linux"
+          "Embedded Linux",
+          "Android NDK",
+          "Camera HAL"
         ]
       },
       {
         "title": "Embedded Platforms",
-        "description": ["Arduino", "BeagleBone", "RaspberryPi"]
+        "description": ["Arduino", "BeagleBone", "RaspberryPi", "Android Devices"]
       },
       {
         "title": "Could Provider",
@@ -237,7 +255,7 @@
       },
       {
         "title": "Protocols",
-        "description": ["UDP", "TCP/IP", "I2C", "SPI", "UART", "MQTT", "Zigbee"]
+        "description": ["UDP", "TCP/IP", "I2C", "SPI", "UART", "MQTT", "Zigbee", "ADB"]
       },
       {
         "title": "CAD Software",
